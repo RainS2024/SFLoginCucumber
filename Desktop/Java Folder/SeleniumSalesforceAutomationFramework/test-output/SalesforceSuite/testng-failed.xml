@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="4" parallel="tests" name="Failed suite [SalesforceSuite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="com.Salesforce.utilities.SFDCListenerUtilities"/>
+  </listeners>
+  <test thread-count="4" parallel="tests" name="SalesforceCreateAccount(failed)">
+    <parameter name="browserName" value="chrome"/>
+    <classes>
+      <class name="com.Salesforce.Automation.SalesforceCreateAcc">
+        <methods>
+          <include name="Createanacc"/>
+          <include name="TC11Createnewview"/>
+          <include name="TearDownAfterMethod"/>
+          <include name="TC10a"/>
+          <include name="TC13"/>
+          <include name="SetupBeforeMethod"/>
+          <include name="TC12Editview"/>
+          <include name="TC14"/>
+        </methods>
+      </class> <!-- com.Salesforce.Automation.SalesforceCreateAcc -->
+    </classes>
+  </test> <!-- SalesforceCreateAccount(failed) -->
+  <test thread-count="4" parallel="tests" name="SalesforceContacts(failed)">
+    <parameter name="browserName" value="chrome"/>
+    <classes>
+      <class name="com.Salesforce.Automation.SalesforceContacts">
+        <methods>
+          <include name="TearDownAfterMethod"/>
+          <include name="TC25"/>
+          <include name="TC29"/>
+          <include name="TC28"/>
+          <include name="TC27"/>
+          <include name="TC26"/>
+          <include name="SetupBeforeMethod"/>
+          <include name="TC32"/>
+          <include name="TC31"/>
+          <include name="TC30"/>
+        </methods>
+      </class> <!-- com.Salesforce.Automation.SalesforceContacts -->
+    </classes>
+  </test> <!-- SalesforceContacts(failed) -->
+  <test thread-count="4" parallel="tests" name="Salesforceleads(failed)">
+    <parameter name="browserName" value="chrome"/>
+    <classes>
+      <class name="com.Salesforce.Automation.Salesforceleads">
+        <methods>
+          <include name="TearDownAfterMethod"/>
+          <include name="TC22Defaultview"/>
+          <include name="TC23"/>
+          <include name="TC24"/>
+          <include name="SetupBeforeMethod"/>
+          <include name="TC20Leadtab"/>
+          <include name="TC21Leadsselectview"/>
+        </methods>
+      </class> <!-- com.Salesforce.Automation.Salesforceleads -->
+    </classes>
+  </test> <!-- Salesforceleads(failed) -->
+  <test thread-count="4" parallel="tests" name="Salesforceopty(failed)">
+    <parameter name="browserName" value="chrome"/>
+    <classes>
+      <class name="com.Salesforce.Automation.Salesforceopty">
+        <methods>
+          <include name="TearDownAfterMethod"/>
+          <include name="TC16"/>
+          <include name="TC19"/>
+          <include name="TC17"/>
+          <include name="TC15"/>
+          <include name="TC18"/>
+          <include name="SetupBeforeMethod"/>
+        </methods>
+      </class> <!-- com.Salesforce.Automation.Salesforceopty -->
+    </classes>
+  </test> <!-- Salesforceopty(failed) -->
+  <test thread-count="4" parallel="tests" name="SalesforceUserMenu(failed)">
+    <parameter name="browserName" value="chrome"/>
+    <classes>
+      <class name="com.Salesforce.Automation.SalesforceUsrmenu">
+        <methods>
+          <include name="TearDownAfterMethod"/>
+          <include name="TC07"/>
+          <include name="TC06"/>
+          <include name="TC05"/>
+          <include name="Delprcnslerrortxt"/>
+          <include name="TC09"/>
+          <include name="SetupBeforeMethod"/>
+          <include name="TC08"/>
+        </methods>
+      </class> <!-- com.Salesforce.Automation.SalesforceUsrmenu -->
+    </classes>
+  </test> <!-- SalesforceUserMenu(failed) -->
+  <test thread-count="4" parallel="tests" name="SalesforceRandomScenario(failed)">
+    <parameter name="browserName" value="chrome"/>
+    <classes>
+      <class name="com.Salesforce.Automation.SalesforceRandomScenario">
+        <methods>
+          <include name="TearDownAfterMethod"/>
+          <include name="TC33"/>
+          <include name="SetupBeforeMethod"/>
+        </methods>
+      </class> <!-- com.Salesforce.Automation.SalesforceRandomScenario -->
+    </classes>
+  </test> <!-- SalesforceRandomScenario(failed) -->
+</suite> <!-- Failed suite [SalesforceSuite] -->

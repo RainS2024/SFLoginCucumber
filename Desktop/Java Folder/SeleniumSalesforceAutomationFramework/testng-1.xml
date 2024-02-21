@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="SFDCSuite">
+	<listeners>
+		<listener class-name="com.Salesforce.utilities.SFDCListenerUtilities"></listener>
+	</listeners>
+  <test thread-count="4" name="SFDCTest">
+    <classes>
+      <class name="com.Salesforce.Automation.Salesforcelogin"/>
+      <class name="com.Salesforce.Automation.Salesforceopty"/>
+      <class name="com.Salesforce.Automation.SalesforceContacts"/>
+      <class name="com.Salesforce.Automation.SalesforceUsrmenu"/>
+      <class name="com.Salesforce.Automation.SalesforceRandomScenario"/>
+      <class name="com.Salesforce.Automation.Salesforceleads"/>
+      <class name="com.Salesforce.Automation.SalesforceCreateAcc"/>
+    </classes>
+  </test> <!-- SFDCTest -->
+</suite> <!-- SFDCSuite -->
