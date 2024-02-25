@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="SFDCSuite">
+	
+  <test name="LoginTest">
+	   <parameter name="browserName" value="chrome"></parameter>
+    <classes>
+      <class name="com.SFDCloginCucumber.runnerfiles.SFDCLoginRunner"/>
+    </classes>
+  </test> <!-- LoginTest -->
+</suite> <!-- SFDCSuite -->
