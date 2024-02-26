@@ -3084,3 +3084,315 @@
 20240219 00:38:50 INFO  [main] base.BaseTest BaseTest.java103 - Browser instance closed
 20240219 00:38:50 INFO  [main] base.BaseTest BaseTest.java49 - ----------------Tear Down After Method executed-------------- 
 20240219 00:38:50 INFO  [main] utilities.SFDCListenerUtilities SFDCListenerUtilities.java23 - LoginTest............execution has completed..............
+20240225 21:46:27 INFO  [main] utilities.SFDCListenerUtilities SFDCListenerUtilities.java30 - Default test...........execution has started..............
+20240225 21:46:28 INFO  [main] base.BaseTest BaseTest.java40 - ----------------SetUp Before Method executed-------------- 
+20240225 21:46:31 INFO  [main] base.BaseTest BaseTest.java62 - Browser instance is created
+20240225 21:46:32 INFO  [main] base.BaseTest BaseTest.java65 - Window is maximized
+20240225 21:46:33 INFO  [main] base.BaseTest BaseTest.java95 - https://login.salesforce.com/ was entered
+20240225 21:46:33 INFO  [main] utilities.SFDCListenerUtilities SFDCListenerUtilities.java52 - CheckRememberme3............execution started..............
+20240225 21:46:33 ERROR [main] utilities.SFDCListenerUtilities SFDCListenerUtilities.java38 - CheckRememberme3....... execution completed with failure..............
+20240225 21:46:33 INFO  [main] base.BaseTest BaseTest.java118 - Captured the screen
+20240225 21:46:33 INFO  [main] base.BaseTest BaseTest.java103 - Browser instance closed
+20240225 21:46:33 INFO  [main] base.BaseTest BaseTest.java49 - ----------------Tear Down After Method executed-------------- 
+20240225 21:46:33 INFO  [main] base.BaseTest BaseTest.java40 - ----------------SetUp Before Method executed-------------- 
+20240225 21:46:35 INFO  [main] base.BaseTest BaseTest.java62 - Browser instance is created
+20240225 21:46:35 INFO  [main] base.BaseTest BaseTest.java65 - Window is maximized
+20240225 21:46:36 INFO  [main] base.BaseTest BaseTest.java95 - https://login.salesforce.com/ was entered
+20240225 21:46:36 INFO  [main] utilities.SFDCListenerUtilities SFDCListenerUtilities.java52 - Forgotpassword4A............execution started..............
+20240225 21:46:36 ERROR [main] utilities.SFDCListenerUtilities SFDCListenerUtilities.java38 - Forgotpassword4A....... execution completed with failure..............
+20240225 21:46:37 INFO  [main] base.BaseTest BaseTest.java118 - Captured the screen
+20240225 21:46:37 INFO  [main] base.BaseTest BaseTest.java103 - Browser instance closed
+20240225 21:46:37 INFO  [main] base.BaseTest BaseTest.java49 - ----------------Tear Down After Method executed-------------- 
+20240225 21:46:37 INFO  [main] base.BaseTest BaseTest.java40 - ----------------SetUp Before Method executed-------------- 
+20240225 21:46:38 INFO  [main] base.BaseTest BaseTest.java62 - Browser instance is created
+20240225 21:46:39 INFO  [main] base.BaseTest BaseTest.java65 - Window is maximized
+20240225 21:46:40 INFO  [main] base.BaseTest BaseTest.java95 - https://login.salesforce.com/ was entered
+20240225 21:46:40 INFO  [main] utilities.SFDCListenerUtilities SFDCListenerUtilities.java52 - Forgotpassword4B............execution started..............
+20240225 21:46:40 ERROR [main] utilities.SFDCListenerUtilities SFDCListenerUtilities.java38 - Forgotpassword4B....... execution completed with failure..............
+20240225 21:46:40 INFO  [main] base.BaseTest BaseTest.java118 - Captured the screen
+20240225 21:46:40 INFO  [main] base.BaseTest BaseTest.java103 - Browser instance closed
+20240225 21:46:40 INFO  [main] base.BaseTest BaseTest.java49 - ----------------Tear Down After Method executed-------------- 
+20240225 21:46:40 INFO  [main] base.BaseTest BaseTest.java40 - ----------------SetUp Before Method executed-------------- 
+20240225 21:46:41 INFO  [main] base.BaseTest BaseTest.java62 - Browser instance is created
+20240225 21:46:42 INFO  [main] base.BaseTest BaseTest.java65 - Window is maximized
+20240225 21:46:43 INFO  [main] base.BaseTest BaseTest.java95 - https://login.salesforce.com/ was entered
+20240225 21:46:43 INFO  [main] utilities.SFDCListenerUtilities SFDCListenerUtilities.java52 - LoginError1............execution started..............
+20240225 21:46:43 INFO  [main] Automation.Salesforcelogin Salesforcelogin.java40 - ------LoginError1 Automation Script started-----------
+20240225 21:46:43 INFO  [main] base.SFDCBasePage SFDCBasePage.java48 - User data is entered in Username textbox textbox
+20240225 21:46:43 INFO  [main] base.SFDCBasePage SFDCBasePage.java48 - User data is entered in password field textbox
+20240225 21:46:44 INFO  [main] base.SFDCBasePage SFDCBasePage.java59 - login button button is clicked
+20240225 21:46:44 INFO  [main] base.SFDCBasePage SFDCBasePage.java70 - Text is extracted from Error Message
+20240225 21:46:44 INFO  [main] utilities.SFDCListenerUtilities SFDCListenerUtilities.java59 - LoginError1............execution completed with success..............
+20240225 21:46:44 INFO  [main] base.BaseTest BaseTest.java103 - Browser instance closed
+20240225 21:46:44 INFO  [main] base.BaseTest BaseTest.java49 - ----------------Tear Down After Method executed-------------- 
+20240225 21:46:44 INFO  [main] base.BaseTest BaseTest.java40 - ----------------SetUp Before Method executed-------------- 
+20240225 21:46:46 INFO  [main] base.BaseTest BaseTest.java62 - Browser instance is created
+20240225 21:46:46 INFO  [main] base.BaseTest BaseTest.java65 - Window is maximized
+20240225 21:46:47 INFO  [main] base.BaseTest BaseTest.java95 - https://login.salesforce.com/ was entered
+20240225 21:46:47 INFO  [main] utilities.SFDCListenerUtilities SFDCListenerUtilities.java52 - LogintoSalesforce2............execution started..............
+20240225 21:46:47 INFO  [main] Automation.Salesforcelogin Salesforcelogin.java59 - ------LoginError1 Automation Script started-----------
+20240225 21:46:47 ERROR [main] utilities.SFDCListenerUtilities SFDCListenerUtilities.java38 - LogintoSalesforce2....... execution completed with failure..............
+20240225 21:46:47 INFO  [main] base.BaseTest BaseTest.java118 - Captured the screen
+20240225 21:46:48 INFO  [main] base.BaseTest BaseTest.java103 - Browser instance closed
+20240225 21:46:48 INFO  [main] base.BaseTest BaseTest.java49 - ----------------Tear Down After Method executed-------------- 
+20240225 21:46:48 INFO  [main] utilities.SFDCListenerUtilities SFDCListenerUtilities.java23 - Default test............execution has completed..............
+20240225 22:02:38 INFO  [main] utilities.SFDCListenerUtilities SFDCListenerUtilities.java30 - Default test...........execution has started..............
+20240225 22:02:38 INFO  [main] base.BaseTest BaseTest.java40 - ----------------SetUp Before Method executed-------------- 
+20240225 22:02:41 INFO  [main] base.BaseTest BaseTest.java62 - Browser instance is created
+20240225 22:02:41 INFO  [main] base.BaseTest BaseTest.java65 - Window is maximized
+20240225 22:02:42 INFO  [main] base.BaseTest BaseTest.java95 - https://login.salesforce.com/ was entered
+20240225 22:02:42 INFO  [main] utilities.SFDCListenerUtilities SFDCListenerUtilities.java52 - CheckRememberme3............execution started..............
+20240225 22:02:43 INFO  [main] base.SFDCBasePage SFDCBasePage.java48 - User data is entered in Username textbox textbox
+20240225 22:02:43 INFO  [main] base.SFDCBasePage SFDCBasePage.java48 - User data is entered in password field textbox
+20240225 22:02:43 INFO  [main] base.SFDCBasePage SFDCBasePage.java89 - Waited for checkbox visibility
+20240225 22:02:43 INFO  [main] base.SFDCBasePage SFDCBasePage.java59 - Check Box button is clicked
+20240225 22:02:49 INFO  [main] base.SFDCBasePage SFDCBasePage.java59 - login button button is clicked
+20240225 22:02:49 INFO  [main] base.SFDCBasePage SFDCBasePage.java70 - Text is extracted from User Page
+20240225 22:02:49 INFO  [main] base.SFDCBasePage SFDCBasePage.java59 - Dropdown Element button is clicked
+20240225 22:02:49 INFO  [main] base.SFDCBasePage SFDCBasePage.java59 - Logout button is clicked
+20240225 22:03:20 ERROR [main] utilities.SFDCListenerUtilities SFDCListenerUtilities.java38 - CheckRememberme3....... execution completed with failure..............
+20240225 22:03:20 INFO  [main] base.BaseTest BaseTest.java118 - Captured the screen
+20240225 22:03:21 INFO  [main] base.BaseTest BaseTest.java103 - Browser instance closed
+20240225 22:03:21 INFO  [main] base.BaseTest BaseTest.java49 - ----------------Tear Down After Method executed-------------- 
+20240225 22:03:21 INFO  [main] base.BaseTest BaseTest.java40 - ----------------SetUp Before Method executed-------------- 
+20240225 22:03:22 INFO  [main] base.BaseTest BaseTest.java62 - Browser instance is created
+20240225 22:03:23 INFO  [main] base.BaseTest BaseTest.java65 - Window is maximized
+20240225 22:03:23 INFO  [main] base.BaseTest BaseTest.java95 - https://login.salesforce.com/ was entered
+20240225 22:03:23 INFO  [main] utilities.SFDCListenerUtilities SFDCListenerUtilities.java52 - Forgotpassword4A............execution started..............
+20240225 22:03:24 INFO  [main] base.SFDCBasePage SFDCBasePage.java59 - Forgot Password button is clicked
+20240225 22:03:24 INFO  [main] base.SFDCBasePage SFDCBasePage.java70 - Text is extracted from Forgot Password
+20240225 22:03:24 INFO  [main] base.SFDCBasePage SFDCBasePage.java48 - User data is entered in Userid textbox
+20240225 22:03:25 INFO  [main] base.SFDCBasePage SFDCBasePage.java59 - Continue button button is clicked
+20240225 22:03:25 INFO  [main] base.SFDCBasePage SFDCBasePage.java70 - Text is extracted from New Page Header
+20240225 22:03:25 INFO  [main] utilities.SFDCListenerUtilities SFDCListenerUtilities.java59 - Forgotpassword4A............execution completed with success..............
+20240225 22:03:25 INFO  [main] base.BaseTest BaseTest.java103 - Browser instance closed
+20240225 22:03:25 INFO  [main] base.BaseTest BaseTest.java49 - ----------------Tear Down After Method executed-------------- 
+20240225 22:03:25 INFO  [main] base.BaseTest BaseTest.java40 - ----------------SetUp Before Method executed-------------- 
+20240225 22:03:27 INFO  [main] base.BaseTest BaseTest.java62 - Browser instance is created
+20240225 22:03:27 INFO  [main] base.BaseTest BaseTest.java65 - Window is maximized
+20240225 22:03:28 INFO  [main] base.BaseTest BaseTest.java95 - https://login.salesforce.com/ was entered
+20240225 22:03:28 INFO  [main] utilities.SFDCListenerUtilities SFDCListenerUtilities.java52 - Forgotpassword4B............execution started..............
+20240225 22:03:28 INFO  [main] base.SFDCBasePage SFDCBasePage.java48 - User data is entered in Usrname Text Box textbox
+20240225 22:03:28 INFO  [main] base.SFDCBasePage SFDCBasePage.java48 - User data is entered in Password Field textbox
+20240225 22:03:29 INFO  [main] base.SFDCBasePage SFDCBasePage.java59 - login button button is clicked
+20240225 22:03:29 INFO  [main] base.SFDCBasePage SFDCBasePage.java70 - Text is extracted from Error Message
+20240225 22:03:29 INFO  [main] utilities.SFDCListenerUtilities SFDCListenerUtilities.java59 - Forgotpassword4B............execution completed with success..............
+20240225 22:03:29 INFO  [main] base.BaseTest BaseTest.java103 - Browser instance closed
+20240225 22:03:29 INFO  [main] base.BaseTest BaseTest.java49 - ----------------Tear Down After Method executed-------------- 
+20240225 22:03:29 INFO  [main] base.BaseTest BaseTest.java40 - ----------------SetUp Before Method executed-------------- 
+20240225 22:03:31 INFO  [main] base.BaseTest BaseTest.java62 - Browser instance is created
+20240225 22:03:31 INFO  [main] base.BaseTest BaseTest.java65 - Window is maximized
+20240225 22:03:32 INFO  [main] base.BaseTest BaseTest.java95 - https://login.salesforce.com/ was entered
+20240225 22:03:32 INFO  [main] utilities.SFDCListenerUtilities SFDCListenerUtilities.java52 - LoginError1............execution started..............
+20240225 22:03:32 INFO  [main] Automation.Salesforcelogin Salesforcelogin.java40 - ------LoginError1 Automation Script started-----------
+20240225 22:03:32 INFO  [main] base.SFDCBasePage SFDCBasePage.java48 - User data is entered in Username textbox textbox
+20240225 22:03:32 INFO  [main] base.SFDCBasePage SFDCBasePage.java48 - User data is entered in password field textbox
+20240225 22:03:33 INFO  [main] base.SFDCBasePage SFDCBasePage.java59 - login button button is clicked
+20240225 22:03:33 INFO  [main] base.SFDCBasePage SFDCBasePage.java70 - Text is extracted from Error Message
+20240225 22:03:33 INFO  [main] utilities.SFDCListenerUtilities SFDCListenerUtilities.java59 - LoginError1............execution completed with success..............
+20240225 22:03:33 INFO  [main] base.BaseTest BaseTest.java103 - Browser instance closed
+20240225 22:03:33 INFO  [main] base.BaseTest BaseTest.java49 - ----------------Tear Down After Method executed-------------- 
+20240225 22:03:33 INFO  [main] base.BaseTest BaseTest.java40 - ----------------SetUp Before Method executed-------------- 
+20240225 22:03:35 INFO  [main] base.BaseTest BaseTest.java62 - Browser instance is created
+20240225 22:03:35 INFO  [main] base.BaseTest BaseTest.java65 - Window is maximized
+20240225 22:03:36 INFO  [main] base.BaseTest BaseTest.java95 - https://login.salesforce.com/ was entered
+20240225 22:03:36 INFO  [main] utilities.SFDCListenerUtilities SFDCListenerUtilities.java52 - LogintoSalesforce2............execution started..............
+20240225 22:03:36 INFO  [main] Automation.Salesforcelogin Salesforcelogin.java59 - ------LoginError1 Automation Script started-----------
+20240225 22:03:36 ERROR [main] utilities.SFDCListenerUtilities SFDCListenerUtilities.java38 - LogintoSalesforce2....... execution completed with failure..............
+20240225 22:03:36 INFO  [main] base.BaseTest BaseTest.java118 - Captured the screen
+20240225 22:03:36 INFO  [main] base.BaseTest BaseTest.java103 - Browser instance closed
+20240225 22:03:36 INFO  [main] base.BaseTest BaseTest.java49 - ----------------Tear Down After Method executed-------------- 
+20240225 22:03:37 INFO  [main] utilities.SFDCListenerUtilities SFDCListenerUtilities.java23 - Default test............execution has completed..............
+20240225 22:04:09 INFO  [main] utilities.SFDCListenerUtilities SFDCListenerUtilities.java30 - Default test(failed)...........execution has started..............
+20240225 22:04:10 INFO  [main] base.BaseTest BaseTest.java40 - ----------------SetUp Before Method executed-------------- 
+20240225 22:04:12 INFO  [main] base.BaseTest BaseTest.java62 - Browser instance is created
+20240225 22:04:13 INFO  [main] base.BaseTest BaseTest.java65 - Window is maximized
+20240225 22:04:14 INFO  [main] base.BaseTest BaseTest.java95 - https://login.salesforce.com/ was entered
+20240225 22:04:14 INFO  [main] utilities.SFDCListenerUtilities SFDCListenerUtilities.java52 - CheckRememberme3............execution started..............
+20240225 22:04:15 INFO  [main] base.SFDCBasePage SFDCBasePage.java48 - User data is entered in Username textbox textbox
+20240225 22:04:15 INFO  [main] base.SFDCBasePage SFDCBasePage.java48 - User data is entered in password field textbox
+20240225 22:04:15 INFO  [main] base.SFDCBasePage SFDCBasePage.java89 - Waited for checkbox visibility
+20240225 22:04:15 INFO  [main] base.SFDCBasePage SFDCBasePage.java59 - Check Box button is clicked
+20240225 22:04:21 INFO  [main] base.SFDCBasePage SFDCBasePage.java59 - login button button is clicked
+20240225 22:04:21 INFO  [main] base.SFDCBasePage SFDCBasePage.java70 - Text is extracted from User Page
+20240225 22:04:21 INFO  [main] base.SFDCBasePage SFDCBasePage.java59 - Dropdown Element button is clicked
+20240225 22:04:22 INFO  [main] base.SFDCBasePage SFDCBasePage.java59 - Logout button is clicked
+20240225 22:04:23 INFO  [main] base.SFDCBasePage SFDCBasePage.java89 - Waited for loginid visibility
+20240225 22:04:23 INFO  [main] utilities.SFDCListenerUtilities SFDCListenerUtilities.java59 - CheckRememberme3............execution completed with success..............
+20240225 22:04:23 INFO  [main] base.BaseTest BaseTest.java103 - Browser instance closed
+20240225 22:04:23 INFO  [main] base.BaseTest BaseTest.java49 - ----------------Tear Down After Method executed-------------- 
+20240225 22:04:23 INFO  [main] base.BaseTest BaseTest.java40 - ----------------SetUp Before Method executed-------------- 
+20240225 22:04:24 INFO  [main] base.BaseTest BaseTest.java62 - Browser instance is created
+20240225 22:04:25 INFO  [main] base.BaseTest BaseTest.java65 - Window is maximized
+20240225 22:04:26 INFO  [main] base.BaseTest BaseTest.java95 - https://login.salesforce.com/ was entered
+20240225 22:04:26 INFO  [main] utilities.SFDCListenerUtilities SFDCListenerUtilities.java52 - LogintoSalesforce2............execution started..............
+20240225 22:04:26 INFO  [main] Automation.Salesforcelogin Salesforcelogin.java59 - ------LoginError1 Automation Script started-----------
+20240225 22:04:26 ERROR [main] utilities.SFDCListenerUtilities SFDCListenerUtilities.java38 - LogintoSalesforce2....... execution completed with failure..............
+20240225 22:04:26 INFO  [main] base.BaseTest BaseTest.java118 - Captured the screen
+20240225 22:04:26 INFO  [main] base.BaseTest BaseTest.java103 - Browser instance closed
+20240225 22:04:26 INFO  [main] base.BaseTest BaseTest.java49 - ----------------Tear Down After Method executed-------------- 
+20240225 22:04:26 INFO  [main] utilities.SFDCListenerUtilities SFDCListenerUtilities.java23 - Default test(failed)............execution has completed..............
+20240225 22:05:22 INFO  [main] utilities.SFDCListenerUtilities SFDCListenerUtilities.java30 - Default test...........execution has started..............
+20240225 22:05:22 INFO  [main] base.BaseTest BaseTest.java40 - ----------------SetUp Before Method executed-------------- 
+20240225 22:05:25 INFO  [main] base.BaseTest BaseTest.java62 - Browser instance is created
+20240225 22:05:25 INFO  [main] base.BaseTest BaseTest.java65 - Window is maximized
+20240225 22:05:26 INFO  [main] base.BaseTest BaseTest.java95 - https://login.salesforce.com/ was entered
+20240225 22:05:26 INFO  [main] utilities.SFDCListenerUtilities SFDCListenerUtilities.java52 - CheckRememberme3............execution started..............
+20240225 22:05:27 INFO  [main] base.SFDCBasePage SFDCBasePage.java48 - User data is entered in Username textbox textbox
+20240225 22:05:27 INFO  [main] base.SFDCBasePage SFDCBasePage.java48 - User data is entered in password field textbox
+20240225 22:05:27 INFO  [main] base.SFDCBasePage SFDCBasePage.java89 - Waited for checkbox visibility
+20240225 22:05:27 INFO  [main] base.SFDCBasePage SFDCBasePage.java59 - Check Box button is clicked
+20240225 22:05:33 INFO  [main] base.SFDCBasePage SFDCBasePage.java59 - login button button is clicked
+20240225 22:05:33 INFO  [main] base.SFDCBasePage SFDCBasePage.java70 - Text is extracted from User Page
+20240225 22:05:33 INFO  [main] base.SFDCBasePage SFDCBasePage.java59 - Dropdown Element button is clicked
+20240225 22:05:33 INFO  [main] base.SFDCBasePage SFDCBasePage.java59 - Logout button is clicked
+20240225 22:05:34 INFO  [main] base.SFDCBasePage SFDCBasePage.java89 - Waited for loginid visibility
+20240225 22:05:35 INFO  [main] utilities.SFDCListenerUtilities SFDCListenerUtilities.java59 - CheckRememberme3............execution completed with success..............
+20240225 22:05:35 INFO  [main] base.BaseTest BaseTest.java103 - Browser instance closed
+20240225 22:05:35 INFO  [main] base.BaseTest BaseTest.java49 - ----------------Tear Down After Method executed-------------- 
+20240225 22:05:35 INFO  [main] base.BaseTest BaseTest.java40 - ----------------SetUp Before Method executed-------------- 
+20240225 22:05:37 INFO  [main] base.BaseTest BaseTest.java62 - Browser instance is created
+20240225 22:05:37 INFO  [main] base.BaseTest BaseTest.java65 - Window is maximized
+20240225 22:05:38 INFO  [main] base.BaseTest BaseTest.java95 - https://login.salesforce.com/ was entered
+20240225 22:05:38 INFO  [main] utilities.SFDCListenerUtilities SFDCListenerUtilities.java52 - Forgotpassword4A............execution started..............
+20240225 22:05:38 INFO  [main] base.SFDCBasePage SFDCBasePage.java59 - Forgot Password button is clicked
+20240225 22:05:38 INFO  [main] base.SFDCBasePage SFDCBasePage.java70 - Text is extracted from Forgot Password
+20240225 22:05:39 INFO  [main] base.SFDCBasePage SFDCBasePage.java48 - User data is entered in Userid textbox
+20240225 22:05:40 INFO  [main] base.SFDCBasePage SFDCBasePage.java59 - Continue button button is clicked
+20240225 22:05:40 INFO  [main] base.SFDCBasePage SFDCBasePage.java70 - Text is extracted from New Page Header
+20240225 22:05:40 INFO  [main] utilities.SFDCListenerUtilities SFDCListenerUtilities.java59 - Forgotpassword4A............execution completed with success..............
+20240225 22:05:40 INFO  [main] base.BaseTest BaseTest.java103 - Browser instance closed
+20240225 22:05:40 INFO  [main] base.BaseTest BaseTest.java49 - ----------------Tear Down After Method executed-------------- 
+20240225 22:05:40 INFO  [main] base.BaseTest BaseTest.java40 - ----------------SetUp Before Method executed-------------- 
+20240225 22:05:41 INFO  [main] base.BaseTest BaseTest.java62 - Browser instance is created
+20240225 22:05:41 INFO  [main] base.BaseTest BaseTest.java65 - Window is maximized
+20240225 22:05:42 INFO  [main] base.BaseTest BaseTest.java95 - https://login.salesforce.com/ was entered
+20240225 22:05:42 INFO  [main] utilities.SFDCListenerUtilities SFDCListenerUtilities.java52 - Forgotpassword4B............execution started..............
+20240225 22:05:43 INFO  [main] base.SFDCBasePage SFDCBasePage.java48 - User data is entered in Usrname Text Box textbox
+20240225 22:05:43 INFO  [main] base.SFDCBasePage SFDCBasePage.java48 - User data is entered in Password Field textbox
+20240225 22:05:43 INFO  [main] base.SFDCBasePage SFDCBasePage.java59 - login button button is clicked
+20240225 22:05:43 INFO  [main] base.SFDCBasePage SFDCBasePage.java70 - Text is extracted from Error Message
+20240225 22:05:43 INFO  [main] utilities.SFDCListenerUtilities SFDCListenerUtilities.java59 - Forgotpassword4B............execution completed with success..............
+20240225 22:05:44 INFO  [main] base.BaseTest BaseTest.java103 - Browser instance closed
+20240225 22:05:44 INFO  [main] base.BaseTest BaseTest.java49 - ----------------Tear Down After Method executed-------------- 
+20240225 22:05:44 INFO  [main] base.BaseTest BaseTest.java40 - ----------------SetUp Before Method executed-------------- 
+20240225 22:05:45 INFO  [main] base.BaseTest BaseTest.java62 - Browser instance is created
+20240225 22:05:45 INFO  [main] base.BaseTest BaseTest.java65 - Window is maximized
+20240225 22:05:46 INFO  [main] base.BaseTest BaseTest.java95 - https://login.salesforce.com/ was entered
+20240225 22:05:46 INFO  [main] utilities.SFDCListenerUtilities SFDCListenerUtilities.java52 - LoginError1............execution started..............
+20240225 22:05:46 INFO  [main] Automation.Salesforcelogin Salesforcelogin.java40 - ------LoginError1 Automation Script started-----------
+20240225 22:05:47 INFO  [main] base.SFDCBasePage SFDCBasePage.java48 - User data is entered in Username textbox textbox
+20240225 22:05:47 INFO  [main] base.SFDCBasePage SFDCBasePage.java48 - User data is entered in password field textbox
+20240225 22:05:47 INFO  [main] base.SFDCBasePage SFDCBasePage.java59 - login button button is clicked
+20240225 22:05:48 INFO  [main] base.SFDCBasePage SFDCBasePage.java70 - Text is extracted from Error Message
+20240225 22:05:48 INFO  [main] utilities.SFDCListenerUtilities SFDCListenerUtilities.java59 - LoginError1............execution completed with success..............
+20240225 22:05:48 INFO  [main] base.BaseTest BaseTest.java103 - Browser instance closed
+20240225 22:05:48 INFO  [main] base.BaseTest BaseTest.java49 - ----------------Tear Down After Method executed-------------- 
+20240225 22:05:48 INFO  [main] base.BaseTest BaseTest.java40 - ----------------SetUp Before Method executed-------------- 
+20240225 22:05:49 INFO  [main] base.BaseTest BaseTest.java62 - Browser instance is created
+20240225 22:05:49 INFO  [main] base.BaseTest BaseTest.java65 - Window is maximized
+20240225 22:05:50 INFO  [main] base.BaseTest BaseTest.java95 - https://login.salesforce.com/ was entered
+20240225 22:05:50 INFO  [main] utilities.SFDCListenerUtilities SFDCListenerUtilities.java52 - LogintoSalesforce2............execution started..............
+20240225 22:05:50 INFO  [main] Automation.Salesforcelogin Salesforcelogin.java59 - ------LoginError1 Automation Script started-----------
+20240225 22:05:50 ERROR [main] utilities.SFDCListenerUtilities SFDCListenerUtilities.java38 - LogintoSalesforce2....... execution completed with failure..............
+20240225 22:05:51 INFO  [main] base.BaseTest BaseTest.java118 - Captured the screen
+20240225 22:05:51 INFO  [main] base.BaseTest BaseTest.java103 - Browser instance closed
+20240225 22:05:51 INFO  [main] base.BaseTest BaseTest.java49 - ----------------Tear Down After Method executed-------------- 
+20240225 22:05:51 INFO  [main] utilities.SFDCListenerUtilities SFDCListenerUtilities.java23 - Default test............execution has completed..............
+20240225 22:07:55 INFO  [main] utilities.SFDCListenerUtilities SFDCListenerUtilities.java30 - Default test...........execution has started..............
+20240225 22:07:55 INFO  [main] base.BaseTest BaseTest.java40 - ----------------SetUp Before Method executed-------------- 
+20240225 22:07:58 INFO  [main] base.BaseTest BaseTest.java62 - Browser instance is created
+20240225 22:07:58 INFO  [main] base.BaseTest BaseTest.java65 - Window is maximized
+20240225 22:07:58 INFO  [main] base.BaseTest BaseTest.java95 - https://login.salesforce.com/ was entered
+20240225 22:07:58 INFO  [main] utilities.SFDCListenerUtilities SFDCListenerUtilities.java52 - LogintoSalesforce2............execution started..............
+20240225 22:07:58 INFO  [main] Automation.Salesforcelogin Salesforcelogin.java59 - ------LoginError1 Automation Script started-----------
+20240225 22:07:58 ERROR [main] utilities.SFDCListenerUtilities SFDCListenerUtilities.java38 - LogintoSalesforce2....... execution completed with failure..............
+20240225 22:07:59 INFO  [main] base.BaseTest BaseTest.java118 - Captured the screen
+20240225 22:07:59 INFO  [main] base.BaseTest BaseTest.java103 - Browser instance closed
+20240225 22:07:59 INFO  [main] base.BaseTest BaseTest.java49 - ----------------Tear Down After Method executed-------------- 
+20240225 22:07:59 INFO  [main] utilities.SFDCListenerUtilities SFDCListenerUtilities.java23 - Default test............execution has completed..............
+20240225 22:10:26 INFO  [main] utilities.SFDCListenerUtilities SFDCListenerUtilities.java30 - Default test...........execution has started..............
+20240225 22:10:26 INFO  [main] base.BaseTest BaseTest.java40 - ----------------SetUp Before Method executed-------------- 
+20240225 22:10:28 INFO  [main] base.BaseTest BaseTest.java62 - Browser instance is created
+20240225 22:10:29 INFO  [main] base.BaseTest BaseTest.java65 - Window is maximized
+20240225 22:10:30 INFO  [main] base.BaseTest BaseTest.java95 - https://login.salesforce.com/ was entered
+20240225 22:10:30 INFO  [main] utilities.SFDCListenerUtilities SFDCListenerUtilities.java52 - LogintoSalesforce2............execution started..............
+20240225 22:10:30 INFO  [main] Automation.Salesforcelogin Salesforcelogin.java59 - ------LoginError1 Automation Script started-----------
+20240225 22:10:30 INFO  [main] base.SFDCBasePage SFDCBasePage.java48 - User data is entered in Username textbox textbox
+20240225 22:10:30 INFO  [main] base.SFDCBasePage SFDCBasePage.java48 - User data is entered in password field textbox
+20240225 22:10:36 INFO  [main] base.SFDCBasePage SFDCBasePage.java59 - login button button is clicked
+20240225 22:10:36 INFO  [main] base.SFDCBasePage SFDCBasePage.java70 - Text is extracted from User Page
+20240225 22:10:36 INFO  [main] utilities.SFDCListenerUtilities SFDCListenerUtilities.java59 - LogintoSalesforce2............execution completed with success..............
+20240225 22:10:36 INFO  [main] base.BaseTest BaseTest.java103 - Browser instance closed
+20240225 22:10:36 INFO  [main] base.BaseTest BaseTest.java49 - ----------------Tear Down After Method executed-------------- 
+20240225 22:10:37 INFO  [main] utilities.SFDCListenerUtilities SFDCListenerUtilities.java23 - Default test............execution has completed..............
+20240225 22:10:45 INFO  [main] utilities.SFDCListenerUtilities SFDCListenerUtilities.java30 - Default test...........execution has started..............
+20240225 22:10:46 INFO  [main] base.BaseTest BaseTest.java40 - ----------------SetUp Before Method executed-------------- 
+20240225 22:10:48 INFO  [main] base.BaseTest BaseTest.java62 - Browser instance is created
+20240225 22:10:48 INFO  [main] base.BaseTest BaseTest.java65 - Window is maximized
+20240225 22:10:49 INFO  [main] base.BaseTest BaseTest.java95 - https://login.salesforce.com/ was entered
+20240225 22:10:49 INFO  [main] utilities.SFDCListenerUtilities SFDCListenerUtilities.java52 - CheckRememberme3............execution started..............
+20240225 22:10:50 INFO  [main] base.SFDCBasePage SFDCBasePage.java48 - User data is entered in Username textbox textbox
+20240225 22:10:50 INFO  [main] base.SFDCBasePage SFDCBasePage.java48 - User data is entered in password field textbox
+20240225 22:10:50 INFO  [main] base.SFDCBasePage SFDCBasePage.java89 - Waited for checkbox visibility
+20240225 22:10:50 INFO  [main] base.SFDCBasePage SFDCBasePage.java59 - Check Box button is clicked
+20240225 22:10:55 INFO  [main] base.SFDCBasePage SFDCBasePage.java59 - login button button is clicked
+20240225 22:10:55 INFO  [main] base.SFDCBasePage SFDCBasePage.java70 - Text is extracted from User Page
+20240225 22:10:55 INFO  [main] base.SFDCBasePage SFDCBasePage.java59 - Dropdown Element button is clicked
+20240225 22:10:56 INFO  [main] base.SFDCBasePage SFDCBasePage.java59 - Logout button is clicked
+20240225 22:10:57 INFO  [main] base.SFDCBasePage SFDCBasePage.java89 - Waited for loginid visibility
+20240225 22:10:57 INFO  [main] utilities.SFDCListenerUtilities SFDCListenerUtilities.java59 - CheckRememberme3............execution completed with success..............
+20240225 22:10:57 INFO  [main] base.BaseTest BaseTest.java103 - Browser instance closed
+20240225 22:10:57 INFO  [main] base.BaseTest BaseTest.java49 - ----------------Tear Down After Method executed-------------- 
+20240225 22:10:57 INFO  [main] base.BaseTest BaseTest.java40 - ----------------SetUp Before Method executed-------------- 
+20240225 22:10:59 INFO  [main] base.BaseTest BaseTest.java62 - Browser instance is created
+20240225 22:10:59 INFO  [main] base.BaseTest BaseTest.java65 - Window is maximized
+20240225 22:11:00 INFO  [main] base.BaseTest BaseTest.java95 - https://login.salesforce.com/ was entered
+20240225 22:11:00 INFO  [main] utilities.SFDCListenerUtilities SFDCListenerUtilities.java52 - Forgotpassword4A............execution started..............
+20240225 22:11:01 INFO  [main] base.SFDCBasePage SFDCBasePage.java59 - Forgot Password button is clicked
+20240225 22:11:01 INFO  [main] base.SFDCBasePage SFDCBasePage.java70 - Text is extracted from Forgot Password
+20240225 22:11:01 INFO  [main] base.SFDCBasePage SFDCBasePage.java48 - User data is entered in Userid textbox
+20240225 22:11:02 INFO  [main] base.SFDCBasePage SFDCBasePage.java59 - Continue button button is clicked
+20240225 22:11:02 INFO  [main] base.SFDCBasePage SFDCBasePage.java70 - Text is extracted from New Page Header
+20240225 22:11:02 INFO  [main] utilities.SFDCListenerUtilities SFDCListenerUtilities.java59 - Forgotpassword4A............execution completed with success..............
+20240225 22:11:02 INFO  [main] base.BaseTest BaseTest.java103 - Browser instance closed
+20240225 22:11:02 INFO  [main] base.BaseTest BaseTest.java49 - ----------------Tear Down After Method executed-------------- 
+20240225 22:11:02 INFO  [main] base.BaseTest BaseTest.java40 - ----------------SetUp Before Method executed-------------- 
+20240225 22:11:03 INFO  [main] base.BaseTest BaseTest.java62 - Browser instance is created
+20240225 22:11:04 INFO  [main] base.BaseTest BaseTest.java65 - Window is maximized
+20240225 22:11:04 INFO  [main] base.BaseTest BaseTest.java95 - https://login.salesforce.com/ was entered
+20240225 22:11:04 INFO  [main] utilities.SFDCListenerUtilities SFDCListenerUtilities.java52 - Forgotpassword4B............execution started..............
+20240225 22:11:05 INFO  [main] base.SFDCBasePage SFDCBasePage.java48 - User data is entered in Usrname Text Box textbox
+20240225 22:11:05 INFO  [main] base.SFDCBasePage SFDCBasePage.java48 - User data is entered in Password Field textbox
+20240225 22:11:05 INFO  [main] base.SFDCBasePage SFDCBasePage.java59 - login button button is clicked
+20240225 22:11:05 INFO  [main] base.SFDCBasePage SFDCBasePage.java70 - Text is extracted from Error Message
+20240225 22:11:05 INFO  [main] utilities.SFDCListenerUtilities SFDCListenerUtilities.java59 - Forgotpassword4B............execution completed with success..............
+20240225 22:11:06 INFO  [main] base.BaseTest BaseTest.java103 - Browser instance closed
+20240225 22:11:06 INFO  [main] base.BaseTest BaseTest.java49 - ----------------Tear Down After Method executed-------------- 
+20240225 22:11:06 INFO  [main] base.BaseTest BaseTest.java40 - ----------------SetUp Before Method executed-------------- 
+20240225 22:11:07 INFO  [main] base.BaseTest BaseTest.java62 - Browser instance is created
+20240225 22:11:07 INFO  [main] base.BaseTest BaseTest.java65 - Window is maximized
+20240225 22:11:08 INFO  [main] base.BaseTest BaseTest.java95 - https://login.salesforce.com/ was entered
+20240225 22:11:08 INFO  [main] utilities.SFDCListenerUtilities SFDCListenerUtilities.java52 - LoginError1............execution started..............
+20240225 22:11:08 INFO  [main] Automation.Salesforcelogin Salesforcelogin.java40 - ------LoginError1 Automation Script started-----------
+20240225 22:11:09 INFO  [main] base.SFDCBasePage SFDCBasePage.java48 - User data is entered in Username textbox textbox
+20240225 22:11:09 INFO  [main] base.SFDCBasePage SFDCBasePage.java48 - User data is entered in password field textbox
+20240225 22:11:10 INFO  [main] base.SFDCBasePage SFDCBasePage.java59 - login button button is clicked
+20240225 22:11:10 INFO  [main] base.SFDCBasePage SFDCBasePage.java70 - Text is extracted from Error Message
+20240225 22:11:10 INFO  [main] utilities.SFDCListenerUtilities SFDCListenerUtilities.java59 - LoginError1............execution completed with success..............
+20240225 22:11:10 INFO  [main] base.BaseTest BaseTest.java103 - Browser instance closed
+20240225 22:11:10 INFO  [main] base.BaseTest BaseTest.java49 - ----------------Tear Down After Method executed-------------- 
+20240225 22:11:10 INFO  [main] base.BaseTest BaseTest.java40 - ----------------SetUp Before Method executed-------------- 
+20240225 22:11:11 INFO  [main] base.BaseTest BaseTest.java62 - Browser instance is created
+20240225 22:11:12 INFO  [main] base.BaseTest BaseTest.java65 - Window is maximized
+20240225 22:11:13 INFO  [main] base.BaseTest BaseTest.java95 - https://login.salesforce.com/ was entered
+20240225 22:11:13 INFO  [main] utilities.SFDCListenerUtilities SFDCListenerUtilities.java52 - LogintoSalesforce2............execution started..............
+20240225 22:11:13 INFO  [main] Automation.Salesforcelogin Salesforcelogin.java59 - ------LoginError1 Automation Script started-----------
+20240225 22:11:13 INFO  [main] base.SFDCBasePage SFDCBasePage.java48 - User data is entered in Username textbox textbox
+20240225 22:11:13 INFO  [main] base.SFDCBasePage SFDCBasePage.java48 - User data is entered in password field textbox
+20240225 22:11:18 INFO  [main] base.SFDCBasePage SFDCBasePage.java59 - login button button is clicked
+20240225 22:11:18 INFO  [main] base.SFDCBasePage SFDCBasePage.java70 - Text is extracted from User Page
+20240225 22:11:18 INFO  [main] utilities.SFDCListenerUtilities SFDCListenerUtilities.java59 - LogintoSalesforce2............execution completed with success..............
+20240225 22:11:18 INFO  [main] base.BaseTest BaseTest.java103 - Browser instance closed
+20240225 22:11:18 INFO  [main] base.BaseTest BaseTest.java49 - ----------------Tear Down After Method executed-------------- 
+20240225 22:11:18 INFO  [main] utilities.SFDCListenerUtilities SFDCListenerUtilities.java23 - Default test............execution has completed..............

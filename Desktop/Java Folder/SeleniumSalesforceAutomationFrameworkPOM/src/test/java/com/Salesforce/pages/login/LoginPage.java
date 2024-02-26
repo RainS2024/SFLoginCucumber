@@ -51,6 +51,7 @@ public void enterwrongpswrd() {
 	
 	
 	public void enterPassword(String data) {
+		
 		enterText(passwordElement, data, "password field");
 	}
 	

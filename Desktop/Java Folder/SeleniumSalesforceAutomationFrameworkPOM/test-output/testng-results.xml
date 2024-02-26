@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="4" total="5" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-02-19T00:37:02 PST" name="Default suite" finished-at="2024-02-19T00:37:18 PST" duration-ms="15412">
+  <suite started-at="2024-02-25T22:10:45 PST" name="Default suite" finished-at="2024-02-25T22:11:18 PST" duration-ms="33078">
     <groups>
     </groups>
-    <test started-at="2024-02-19T00:37:02 PST" name="Default test" finished-at="2024-02-19T00:37:18 PST" duration-ms="15412">
+    <test started-at="2024-02-25T22:10:45 PST" name="Default test" finished-at="2024-02-25T22:11:18 PST" duration-ms="33078">
       <class name="com.Salesforce.Automation.Salesforcelogin">
-        <test-method is-config="true" signature="SetupBeforeMethod(java.lang.String)[pri:0, instance:com.Salesforce.Automation.Salesforcelogin@363042d7]" started-at="2024-02-19T00:37:02 PST" name="SetupBeforeMethod" finished-at="2024-02-19T00:37:07 PST" duration-ms="4080" status="PASS">
+        <test-method is-config="true" signature="SetupBeforeMethod(java.lang.String)[pri:0, instance:com.Salesforce.Automation.Salesforcelogin@1b73be9f]" started-at="2024-02-25T22:10:46 PST" name="SetupBeforeMethod" finished-at="2024-02-25T22:10:49 PST" duration-ms="3833" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,11 +18,87 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SetupBeforeMethod -->
-        <test-method signature="CheckRememberme3()[pri:0, instance:com.Salesforce.Automation.Salesforcelogin@363042d7]" started-at="2024-02-19T00:37:07 PST" name="CheckRememberme3" finished-at="2024-02-19T00:37:17 PST" duration-ms="10821" status="PASS">
+        <test-method signature="CheckRememberme3()[pri:0, instance:com.Salesforce.Automation.Salesforcelogin@1b73be9f]" started-at="2024-02-25T22:10:49 PST" name="CheckRememberme3" finished-at="2024-02-25T22:10:57 PST" duration-ms="7688" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CheckRememberme3 -->
-        <test-method is-config="true" signature="TearDownAfterMethod()[pri:0, instance:com.Salesforce.Automation.Salesforcelogin@363042d7]" started-at="2024-02-19T00:37:17 PST" name="TearDownAfterMethod" finished-at="2024-02-19T00:37:18 PST" duration-ms="215" status="PASS">
+        <test-method is-config="true" signature="TearDownAfterMethod()[pri:0, instance:com.Salesforce.Automation.Salesforcelogin@1b73be9f]" started-at="2024-02-25T22:10:57 PST" name="TearDownAfterMethod" finished-at="2024-02-25T22:10:57 PST" duration-ms="231" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDownAfterMethod -->
+        <test-method is-config="true" signature="SetupBeforeMethod(java.lang.String)[pri:0, instance:com.Salesforce.Automation.Salesforcelogin@1b73be9f]" started-at="2024-02-25T22:10:57 PST" name="SetupBeforeMethod" finished-at="2024-02-25T22:11:00 PST" duration-ms="2698" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetupBeforeMethod -->
+        <test-method signature="Forgotpassword4A()[pri:0, instance:com.Salesforce.Automation.Salesforcelogin@1b73be9f]" started-at="2024-02-25T22:11:00 PST" name="Forgotpassword4A" finished-at="2024-02-25T22:11:02 PST" duration-ms="1600" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Forgotpassword4A -->
+        <test-method is-config="true" signature="TearDownAfterMethod()[pri:0, instance:com.Salesforce.Automation.Salesforcelogin@1b73be9f]" started-at="2024-02-25T22:11:02 PST" name="TearDownAfterMethod" finished-at="2024-02-25T22:11:02 PST" duration-ms="142" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDownAfterMethod -->
+        <test-method is-config="true" signature="SetupBeforeMethod(java.lang.String)[pri:0, instance:com.Salesforce.Automation.Salesforcelogin@1b73be9f]" started-at="2024-02-25T22:11:02 PST" name="SetupBeforeMethod" finished-at="2024-02-25T22:11:04 PST" duration-ms="2686" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetupBeforeMethod -->
+        <test-method signature="Forgotpassword4B()[pri:0, instance:com.Salesforce.Automation.Salesforcelogin@1b73be9f]" started-at="2024-02-25T22:11:04 PST" name="Forgotpassword4B" finished-at="2024-02-25T22:11:05 PST" duration-ms="948" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Forgotpassword4B -->
+        <test-method is-config="true" signature="TearDownAfterMethod()[pri:0, instance:com.Salesforce.Automation.Salesforcelogin@1b73be9f]" started-at="2024-02-25T22:11:05 PST" name="TearDownAfterMethod" finished-at="2024-02-25T22:11:06 PST" duration-ms="145" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDownAfterMethod -->
+        <test-method is-config="true" signature="SetupBeforeMethod(java.lang.String)[pri:0, instance:com.Salesforce.Automation.Salesforcelogin@1b73be9f]" started-at="2024-02-25T22:11:06 PST" name="SetupBeforeMethod" finished-at="2024-02-25T22:11:08 PST" duration-ms="2688" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetupBeforeMethod -->
+        <test-method signature="LoginError1()[pri:0, instance:com.Salesforce.Automation.Salesforcelogin@1b73be9f]" started-at="2024-02-25T22:11:08 PST" name="LoginError1" finished-at="2024-02-25T22:11:10 PST" duration-ms="1535" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginError1 -->
+        <test-method is-config="true" signature="TearDownAfterMethod()[pri:0, instance:com.Salesforce.Automation.Salesforcelogin@1b73be9f]" started-at="2024-02-25T22:11:10 PST" name="TearDownAfterMethod" finished-at="2024-02-25T22:11:10 PST" duration-ms="151" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDownAfterMethod -->
+        <test-method is-config="true" signature="SetupBeforeMethod(java.lang.String)[pri:0, instance:com.Salesforce.Automation.Salesforcelogin@1b73be9f]" started-at="2024-02-25T22:11:10 PST" name="SetupBeforeMethod" finished-at="2024-02-25T22:11:13 PST" duration-ms="2631" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetupBeforeMethod -->
+        <test-method signature="LogintoSalesforce2()[pri:0, instance:com.Salesforce.Automation.Salesforcelogin@1b73be9f]" started-at="2024-02-25T22:11:13 PST" name="LogintoSalesforce2" finished-at="2024-02-25T22:11:18 PST" duration-ms="5563" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogintoSalesforce2 -->
+        <test-method is-config="true" signature="TearDownAfterMethod()[pri:0, instance:com.Salesforce.Automation.Salesforcelogin@1b73be9f]" started-at="2024-02-25T22:11:18 PST" name="TearDownAfterMethod" finished-at="2024-02-25T22:11:18 PST" duration-ms="222" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TearDownAfterMethod -->

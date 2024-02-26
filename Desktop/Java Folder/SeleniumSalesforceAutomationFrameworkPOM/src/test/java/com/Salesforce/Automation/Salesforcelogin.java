@@ -27,6 +27,10 @@ import com.Salesforce.utilities.PropertiesUtilty;
 public class Salesforcelogin extends BaseTest {
 	protected static Logger SalesforceLoginlog = LogManager.getLogger();
 	protected static ExtentReportsUtility extentreport = ExtentReportsUtility.getInstance();
+	LoginPage loginpage;
+	HomePage hm;
+	Forgotpassword FP;
+	NewPg NP;
 @Test	
  public void LoginError1() throws InterruptedException {	
       
@@ -38,7 +42,7 @@ String username = PropertiesUtilty.ReadingdatafromPropertyfile(Constants.APPLICA
 
 extentreport.logTestInfo("Username and Password extracted from properties file");
 
-LoginPage loginpage = new LoginPage(driver);
+loginpage = new LoginPage(driver);
 loginpage.enterUserName(username);
 loginpage.enterPassword("");
 
@@ -53,16 +57,15 @@ Assert.assertEquals(Actual, Expected);
 public void LogintoSalesforce2 () throws InterruptedException {
 	
 	SalesforceLoginlog.info("------LoginError1 Automation Script started-----------");
+	extentreport.logTestInfo("Username and Password extracted from properties file");
 	String username = PropertiesUtilty.ReadingdatafromPropertyfile(Constants.APPLICATION_PROPERTIES, "username");
 	String password = PropertiesUtilty.ReadingdatafromPropertyfile(Constants.APPLICATION_PROPERTIES, "password");
-	extentreport.logTestInfo("Username and Password extracted from properties file");
-
-	LoginPage loginpage = new LoginPage(driver);
+	loginpage = new LoginPage(driver);
 	loginpage.enterUserName(username);
 	loginpage.enterPassword(password);
-	loginpage.clickLoginButton();
+	driver = loginpage.clickLoginButton();
 	
-	HomePage hm = new HomePage(driver);
+	hm = new HomePage(driver);
 	String Actual = hm.getText();
 	String expected = "Rain Sing";
 	Assert.assertEquals(Actual, expected);
@@ -75,27 +78,27 @@ public void LogintoSalesforce2 () throws InterruptedException {
 		
 	
 	     
-	    LoginPage loginpage = new LoginPage(driver);
+	    loginpage = new LoginPage(driver);
 	    String usrname = loginpage.getusername();
 		loginpage.enterUserName(usrname);
 		String paswrd=loginpage.getpassword();
 		loginpage.enterPassword(paswrd);
 		loginpage.waitforvisibilitycheckbx();
 		loginpage.clickCheckbox();
-		loginpage.clickLoginButton();
+		driver = loginpage.clickLoginButton();
 		
-		HomePage hm = new HomePage(driver);
+		hm = new HomePage(driver);
 		String Actual = hm.getText();
 		String expected = "Rain Sing";
 		SoftAssert sb = new SoftAssert();
 		sb.assertEquals(Actual, expected);
 	    hm.clickDropdown();
-		hm.clickLogOut();
+		driver = hm.clickLogOut();
 		 
-		LoginPage loginpage1 = new LoginPage(driver);
-		loginpage1.waitforvisibilityloginid();
-		loginpage1.logindisplayed();
-		loginpage1.logindassert();
+		loginpage = new LoginPage(driver);
+		loginpage.waitforvisibilityloginid();
+		loginpage.logindisplayed();
+		loginpage.logindassert();
 		 sb.assertAll();
 					
 		
@@ -106,17 +109,17 @@ public void LogintoSalesforce2 () throws InterruptedException {
 		
 	    driver.manage().timeouts().implicitlyWait(30,TimeUnit.SECONDS);
 		
-	    LoginPage loginpage = new LoginPage(driver);
-	    loginpage.clickFrgtpswrd();
+	    loginpage = new LoginPage(driver);
+	    driver = loginpage.clickFrgtpswrd();
 	    
-	    Forgotpassword FP = new Forgotpassword(driver);
+	    FP = new Forgotpassword(driver);
 	    String Heading = FP.gettext();
 		String banner = "Forgot Your Password";
 		SoftAssert sb = new SoftAssert();
 		sb.assertEquals(Heading, banner);
 		FP.enteruserid();
-		FP.clickContinue();
-		NewPg NP = new NewPg(driver);
+		driver = FP.clickContinue();
+		NP = new NewPg(driver);
 		String Expected = "Check Your Email";
 		String Header = NP.getHeader();
 		Assert.assertEquals(Header,Expected);
@@ -132,13 +135,13 @@ public void LogintoSalesforce2 () throws InterruptedException {
 		
 	    driver.manage().timeouts().implicitlyWait(30,TimeUnit.SECONDS);
 	
-	    LoginPage LP = new LoginPage(driver);
-	    LP.enterwrongusername();
-	    LP.enterwrongpswrd();
-	    LP.clickLoginButton();
-		String error = LP.getTextFromError();
+	    loginpage = new LoginPage(driver);
+	    loginpage.enterwrongusername();
+	    loginpage.enterwrongpswrd();
+	    loginpage.clickLoginButton();
+		String error = loginpage.getTextFromError();
 		SoftAssert sb = new SoftAssert();
-		sb.assertTrue(LP.errmsgElement.isDisplayed());
+		sb.assertTrue(loginpage.errmsgElement.isDisplayed());
 		String expectedmsg = "Please check your username and password. If you still can't log in, contact your Salesforce administrator.";
 		Assert.assertEquals(error, expectedmsg);
 		sb.assertAll();
