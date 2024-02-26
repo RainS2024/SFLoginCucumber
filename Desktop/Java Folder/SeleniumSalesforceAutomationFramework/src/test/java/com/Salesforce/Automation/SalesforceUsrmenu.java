@@ -111,8 +111,8 @@ public class SalesforceUsrmenu extends SFDCBasecase{
 	
 	//File link
 	
-	WebElement File = driver.findElement(By.xpath("//*[@id=\"publisherAttachContentPost\"]/span[1]"));
-	waitforvisibility(File, 40, "File Link");
+	WebElement File = driver.findElement(By.xpath("//a[@id=\"publisherAttachContentPost\"]"));
+	waitforvisibility(File, 30, "File Link");
 	clickElement(File,"File link");
 	
 	WebElement Fileupload = driver.findElement(By.xpath("//*[@id=\"chatterUploadFileAction\"]"));
