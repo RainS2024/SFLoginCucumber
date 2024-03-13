@@ -7,7 +7,7 @@
         <methods>
           <include name="SetupBeforeMethod"/>
           <include name="TearDownAfterMethod"/>
-          <include name="LogintoSalesforce2"/>
+          <include name="CheckRememberme3"/>
         </methods>
       </class> <!-- com.Salesforce.Automation.Salesforcelogin -->
     </classes>

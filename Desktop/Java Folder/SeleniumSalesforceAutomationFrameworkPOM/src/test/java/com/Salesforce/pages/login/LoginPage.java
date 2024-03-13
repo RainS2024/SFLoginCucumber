@@ -109,6 +109,6 @@ public void enterwrongpswrd() {
 	
 	
 	public void waitforvisibilityloginid() {
-		waitforvisibility(LoginID,30,"loginid");}
+		waitforvisibility(LoginID,50,"loginid");}
 
 }
