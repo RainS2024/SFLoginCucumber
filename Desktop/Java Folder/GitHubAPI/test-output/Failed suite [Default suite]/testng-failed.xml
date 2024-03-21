@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Failed suite [Default suite]]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)(failed)">
+    <classes>
+      <class name="org.GitHub.CRUD.GitHub">
+        <methods>
+          <include name="validateDeleteData"/>
+          <include name="beforeClass"/>
+          <include name="validateUpdateDataFunctionality"/>
+          <include name="setup"/>
+          <include name="beforeSuite"/>
+        </methods>
+      </class> <!-- org.GitHub.CRUD.GitHub -->
+    </classes>
+  </test> <!-- Default test(failed)(failed) -->
+</suite> <!-- Failed suite [Failed suite [Default suite]] -->
