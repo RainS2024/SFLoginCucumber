@@ -20,6 +20,8 @@ private String name;
 private String description;
 @JsonProperty(value = "homepage")
 private String homepage;
+@JsonProperty(value = "private")
+private boolean Private;
 
 
 }

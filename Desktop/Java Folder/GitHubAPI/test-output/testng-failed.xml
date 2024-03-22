@@ -5,9 +5,10 @@
     <classes>
       <class name="org.GitHub.CRUD.GitHub">
         <methods>
+          <include name="validateAddDataFunctionality"/>
           <include name="beforeClass"/>
-          <include name="validateDeleteData"/>
           <include name="setup"/>
+          <include name="negativeAddDataFunctionality"/>
           <include name="beforeSuite"/>
         </methods>
       </class> <!-- org.GitHub.CRUD.GitHub -->

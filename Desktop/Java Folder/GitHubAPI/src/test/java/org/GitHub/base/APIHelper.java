@@ -23,14 +23,20 @@ public class APIHelper {
     RequestSpecification reqSpec;
     String token = EnvironmentDetails.getProperty("mytoken");
     String username = EnvironmentDetails.getProperty("owner");
-    String reponame =  EnvironmentDetails.getProperty("repo");
-    String updaterepo =  EnvironmentDetails.getProperty("repo2");
-    String deleterepo =  EnvironmentDetails.getProperty("repo3");
+    
     public APIHelper() {
         RestAssured.baseURI = EnvironmentDetails.getProperty("baseURL");    
       
     }
-    public Response getData() {
+    
+    public HashMap<String, String> getHeaders() {
+        HashMap<String, String> headers = new HashMap<>();
+        headers.put("Content-Type", "application/json");
+        headers.put("Authorization","Bearer "+ token);
+        return headers;
+    }
+    
+    public Response getData(String reponame) {
         reqSpec = RestAssured.given()
         		.header("Authorization","Bearer"+ token)
         		.pathParam("owner",username)
@@ -103,10 +109,10 @@ public class APIHelper {
         return response;
     }
 
-    public Response patchData(UpdateDataPOJO updateDataRequest) {
+    public Response patchData(String RepoName ,UpdateDataPOJO updateDataRequest) {
         reqSpec = RestAssured.given().auth().oauth2(token)
                   .pathParam("owner",username)
-		          .pathParam("repo2",updaterepo);
+		          .pathParam("repo2",RepoName);
         Response response = null;
         try {
             reqSpec.body(new ObjectMapper().writeValueAsString(updateDataRequest)); //Serializing addData Request POJO classes to byte stream
@@ -119,10 +125,10 @@ public class APIHelper {
         return response;
     }
 
-    public Response deleteData() {
+    public Response deleteData(String name) {
     	reqSpec = RestAssured.given().auth().oauth2(token)
                 .pathParam("owner",username)
-		          .pathParam("repo3",deleterepo);
+		          .pathParam("repo3",name);
         Response response = null;
         try {
             response = reqSpec.delete("/repos/{owner}/{repo3}");
@@ -135,11 +141,6 @@ public class APIHelper {
     }
     
    
-    public HashMap<String, String> getHeaders() {
-        HashMap<String, String> headers = new HashMap<>();
-        headers.put("Content-Type", "application/json");
-        headers.put("Authorization","Bearer "+ token);
-        return headers;
-    }
+   
 
 }

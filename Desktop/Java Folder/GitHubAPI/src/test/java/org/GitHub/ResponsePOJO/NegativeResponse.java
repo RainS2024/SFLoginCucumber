@@ -19,4 +19,8 @@ public class NegativeResponse{
     public void setDocumentation_url(String documentation_url) { 
 		 this.documentation_url = documentation_url; } 
     String documentation_url;
+    
+    
+    
+    
 }

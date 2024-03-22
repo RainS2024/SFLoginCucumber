@@ -30,12 +30,12 @@ public class ExtentReportsUtility {
 	public void startExtentReport() {
 		report= new ExtentReports();
 		spark = new ExtentSparkReporter(Constants.SPARKS_HTML_REPORT_PATH);
-		report.setSystemInfo("Host Name", "Tekarch");
+		report.setSystemInfo("Host Name", "Tekarch-Student");
 		report.setSystemInfo("Environment", "QA");
 		report.setSystemInfo("User Name", "Garima Singh");
 		
 		spark.config().setDocumentTitle("Test Execution Report");
-		spark.config().setReportName("Tekarch Test Cases");
+		spark.config().setReportName("GitHub API Test Suit");
 		spark.config().setTheme(Theme.STANDARD);
 		report.attachReporter(spark);	
 	}
