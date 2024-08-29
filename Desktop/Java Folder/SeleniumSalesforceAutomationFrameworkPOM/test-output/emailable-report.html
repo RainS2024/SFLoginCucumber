@@ -8,11 +8,46 @@
 <body>
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
-<tr><th colspan="8">Default suite</th></tr>
-<tr><td><a href="#t0">Default test</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">16,384</td><td></td><td></td></tr>
+<tr><th colspan="8">SFDCSuite</th></tr>
+<tr><td><a href="#t0">LoginTest</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">13,605</td><td></td><td></td></tr>
+<tr class="stripe"><td><a href="#t1">LoginTestSafari</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">18,850</td><td></td><td></td></tr>
+<tr><td><a href="#t2">LoginTestFirefox</a></td><td class="num">0</td><td class="num attn">1</td><td class="num">0</td><td class="num">0</td><td class="num">1,435</td><td></td><td></td></tr>
+<tr><th>Total</th><th class="num">2</th><th class="num attn">1</th><th class="num">0</th><th class="num">0</th><th class="num">33,890</th><th colspan="2"></th></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Default suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Default test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">com.Salesforce.Automation.Salesforcelogin</td><td><a href="#m0">CheckRememberme3</a></td><td rowspan="1">1710295260745</td><td rowspan="1">11204</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">SFDCSuite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">LoginTest &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">com.Salesforce.Automation.SalesforceloginCrossbrowser</td><td><a href="#m0">LoginError1</a></td><td rowspan="1">1721223680675</td><td rowspan="1">4204</td></tr></tbody>
+<tbody id="t1"><tr><th colspan="4">LoginTestSafari &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">com.Salesforce.Automation.SalesforceloginCrossbrowser</td><td><a href="#m1">LoginError1</a></td><td rowspan="1">1721223700275</td><td rowspan="1">3873</td></tr></tbody>
+<tbody id="t2"><tr><th colspan="4">LoginTestFirefox &#8212; failed (configuration methods)</th></tr><tr class="failedeven"><td rowspan="1">com.Salesforce.Automation.SalesforceloginCrossbrowser</td><td><a href="#m2">SetupBeforeMethod</a></td><td rowspan="1">1721223704548</td><td rowspan="1">1414</td></tr><tr><th colspan="4">LoginTestFirefox &#8212; skipped (configuration methods)</th></tr><tr class="skippedeven"><td rowspan="1">com.Salesforce.Automation.SalesforceloginCrossbrowser</td><td><a href="#m3">TearDownAfterMethod</a></td><td rowspan="1">1721223705974</td><td rowspan="1">0</td></tr><tr><th colspan="4">LoginTestFirefox &#8212; skipped</th></tr><tr class="skippedeven"><td rowspan="1">com.Salesforce.Automation.SalesforceloginCrossbrowser</td><td><a href="#m4">LoginError1</a></td><td rowspan="1">1721223705968</td><td rowspan="1">1</td></tr></tbody>
 </table>
-<h2>Default test</h2><h3 id="m0">com.Salesforce.Automation.Salesforcelogin#CheckRememberme3</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>LoginTest</h2><h3 id="m0">com.Salesforce.Automation.SalesforceloginCrossbrowser#LoginError1</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>LoginTestSafari</h2><h3 id="m1">com.Salesforce.Automation.SalesforceloginCrossbrowser#LoginError1</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>LoginTestFirefox</h2><h3 id="m2">com.Salesforce.Automation.SalesforceloginCrossbrowser#SetupBeforeMethod</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>firefox</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.WebDriverException: Cannot find firefox binary in PATH. Make sure firefox is installed. OS appears to be: MAC
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;Niwass-MacBook-Pro.local&apos;, ip: &apos;2401:4900:1c37:bdaa:e122:3f31:e492:6401%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;12.6.1&apos;, java.version: &apos;17.0.9&apos;
+Driver info: driver.version: FirefoxDriver
+	at org.openqa.selenium.firefox.FirefoxBinary.&lt;init&gt;(FirefoxBinary.java:100)
+	at java.base/java.util.Optional.orElseGet(Optional.java:364)
+	at org.openqa.selenium.firefox.FirefoxOptions.getBinary(FirefoxOptions.java:216)
+	at org.openqa.selenium.firefox.FirefoxDriver.toExecutor(FirefoxDriver.java:187)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:147)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:125)
+	at com.Salesforce.base.BaseTest.launchbrowser(BaseTest.java:80)
+	at com.Salesforce.base.BaseTest.SetupBeforeMethod(BaseTest.java:42)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 31 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">com.Salesforce.Automation.SalesforceloginCrossbrowser#TearDownAfterMethod</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">com.Salesforce.Automation.SalesforceloginCrossbrowser#LoginError1</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.WebDriverException: Cannot find firefox binary in PATH. Make sure firefox is installed. OS appears to be: MAC
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;Niwass-MacBook-Pro.local&apos;, ip: &apos;2401:4900:1c37:bdaa:e122:3f31:e492:6401%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;12.6.1&apos;, java.version: &apos;17.0.9&apos;
+Driver info: driver.version: FirefoxDriver
+	at org.openqa.selenium.firefox.FirefoxBinary.&lt;init&gt;(FirefoxBinary.java:100)
+	at java.base/java.util.Optional.orElseGet(Optional.java:364)
+	at org.openqa.selenium.firefox.FirefoxOptions.getBinary(FirefoxOptions.java:216)
+	at org.openqa.selenium.firefox.FirefoxDriver.toExecutor(FirefoxDriver.java:187)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:147)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:125)
+	at com.Salesforce.base.BaseTest.launchbrowser(BaseTest.java:80)
+	at com.Salesforce.base.BaseTest.SetupBeforeMethod(BaseTest.java:42)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 31 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>

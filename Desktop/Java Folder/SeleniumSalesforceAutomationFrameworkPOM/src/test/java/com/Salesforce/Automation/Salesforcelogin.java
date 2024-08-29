@@ -1,6 +1,11 @@
 package com.Salesforce.Automation;
 
+import org.testng.annotations.Test;
+import org.testng.AssertJUnit;
+import org.testng.annotations.Test;
+import org.testng.AssertJUnit;
 import org.testng.annotations.Listeners;
+import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
 import org.testng.AssertJUnit;
@@ -47,9 +52,10 @@ loginpage.enterUserName(username);
 loginpage.enterPassword("");
 
 loginpage.clickLoginButton();
+
 String Actual =loginpage.getTextFromError();
 String Expected = "Please enter your password.";
-Assert.assertEquals(Actual, Expected);
+AssertJUnit.assertEquals(Actual, Expected);
 
 
 	}
@@ -68,7 +74,7 @@ public void LogintoSalesforce2 () throws InterruptedException {
 	hm = new HomePage(driver);
 	String Actual = hm.getText();
 	String expected = "Rain Sing";
-	Assert.assertEquals(Actual, expected);
+	AssertJUnit.assertEquals(Actual, expected);
 	
 	
 
@@ -86,17 +92,17 @@ public void LogintoSalesforce2 () throws InterruptedException {
 		loginpage.waitforvisibilitycheckbx();
 		loginpage.clickCheckbox();
 		driver = loginpage.clickLoginButton();
-		
+		Thread.sleep(2000);
 		hm = new HomePage(driver);
 		String Actual = hm.getText();
 		String expected = "Rain Sing";
 		SoftAssert sb = new SoftAssert();
-		sb.assertEquals(Actual, expected);
+		AssertJUnit.assertEquals(Actual, expected);
 	    hm.clickDropdown();
 		driver = hm.clickLogOut();
-		 
+		Thread.sleep(2000);
 		loginpage = new LoginPage(driver);
-		loginpage.waitforvisibilityloginid();
+		//loginpage.waitforvisibilityloginid();
 		loginpage.logindisplayed();
 		loginpage.logindassert();
 		 sb.assertAll();
@@ -116,13 +122,13 @@ public void LogintoSalesforce2 () throws InterruptedException {
 	    String Heading = FP.gettext();
 		String banner = "Forgot Your Password";
 		SoftAssert sb = new SoftAssert();
-		sb.assertEquals(Heading, banner);
+		AssertJUnit.assertEquals(Heading, banner);
 		FP.enteruserid();
 		driver = FP.clickContinue();
 		NP = new NewPg(driver);
 		String Expected = "Check Your Email";
 		String Header = NP.getHeader();
-		Assert.assertEquals(Header,Expected);
+		AssertJUnit.assertEquals(Header,Expected);
 	    sb.assertAll();
 		
 		}
@@ -141,9 +147,9 @@ public void LogintoSalesforce2 () throws InterruptedException {
 	    loginpage.clickLoginButton();
 		String error = loginpage.getTextFromError();
 		SoftAssert sb = new SoftAssert();
-		sb.assertTrue(loginpage.errmsgElement.isDisplayed());
+		AssertJUnit.assertTrue(loginpage.errmsgElement.isDisplayed());
 		String expectedmsg = "Please check your username and password. If you still can't log in, contact your Salesforce administrator.";
-		Assert.assertEquals(error, expectedmsg);
+		AssertJUnit.assertEquals(error, expectedmsg);
 		sb.assertAll();
 		
 		

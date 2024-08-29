@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.Salesforce.Automation.Salesforcelogin">
+      <class name="com.Salesforce.Automation.SalesforceloginGroupTesting">
         <methods>
           <include name="SetupBeforeMethod"/>
+          <include name="LogintoSalesforce2"/>
           <include name="TearDownAfterMethod"/>
-          <include name="CheckRememberme3"/>
         </methods>
-      </class> <!-- com.Salesforce.Automation.Salesforcelogin -->
+      </class> <!-- com.Salesforce.Automation.SalesforceloginGroupTesting -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

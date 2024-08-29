@@ -12,6 +12,7 @@ import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.safari.SafariDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
@@ -35,10 +36,10 @@ public class BaseTest {
 	protected static ExtentReportsUtility extentreport = ExtentReportsUtility.getInstance();
 	
 	@BeforeMethod
-	@Parameters("browserName")//you will have to add parameters in configuration file too to use this parameter.
-	public void SetupBeforeMethod(@Optional("chrome")String name) throws InterruptedException {
+	@Parameters("browsername")//you will have to add parameters in configuration file too to use this parameter.
+	public void SetupBeforeMethod(@Optional("chrome")String browsername) throws InterruptedException {
 		BaseTestlog.info("----------------SetUp Before Method executed-------------- ");
-		launchbrowser(name);
+		launchbrowser(browsername);
 		String url = PropertiesUtilty.ReadingdatafromPropertyfile(Constants.APPLICATION_PROPERTIES, "url");
 	    gotourl(url);	
 	}

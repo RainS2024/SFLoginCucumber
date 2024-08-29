@@ -71,6 +71,7 @@ public void enterwrongpswrd() {
 		clickElement(Checkbx,"Check Box");
 	}
 	public String getTextFromError() {
+		waitforvisibility(errmsgElement,10, "Waited for Error Message to be visible");
 	return getTextFromElement(errmsgElement,"Error Message");
 
 	}
@@ -104,7 +105,9 @@ public void enterwrongpswrd() {
 	public void logindassert() {
 	String displayed =LoginID.getAttribute("value");
 	String realid = "spirit42@rainbow.com";
-	Assert.assertEquals(displayed, realid);}
+	Assert.assertEquals(displayed, realid);
+	
+	}
 	
 	
 	

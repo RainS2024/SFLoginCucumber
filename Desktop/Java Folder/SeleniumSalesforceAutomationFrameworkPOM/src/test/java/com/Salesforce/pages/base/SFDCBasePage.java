@@ -29,9 +29,6 @@ import com.beust.jcommander.Parameter;
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 
-
-
-
 public class SFDCBasePage {
 	protected static WebDriver driver = null;
 	protected static Logger SFDCBasePagelog = LogManager.getLogger();

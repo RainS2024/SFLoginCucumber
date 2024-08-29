@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="4" total="5" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="2" failed="0" skipped="1">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-03-12T19:00:55 PDT" name="Default suite" finished-at="2024-03-12T19:01:12 PDT" duration-ms="16384">
+  <suite started-at="2024-07-17T19:11:11 IST" name="SFDCSuite" finished-at="2024-07-17T19:11:45 IST" duration-ms="34528">
     <groups>
     </groups>
-    <test started-at="2024-03-12T19:00:55 PDT" name="Default test" finished-at="2024-03-12T19:01:12 PDT" duration-ms="16384">
-      <class name="com.Salesforce.Automation.Salesforcelogin">
-        <test-method is-config="true" signature="SetupBeforeMethod(java.lang.String)[pri:0, instance:com.Salesforce.Automation.Salesforcelogin@363042d7]" started-at="2024-03-12T19:00:56 PDT" name="SetupBeforeMethod" finished-at="2024-03-12T19:01:00 PDT" duration-ms="4506" status="PASS">
+    <test started-at="2024-07-17T19:11:11 IST" name="LoginTest" finished-at="2024-07-17T19:11:25 IST" duration-ms="13605">
+      <class name="com.Salesforce.Automation.SalesforceloginCrossbrowser">
+        <test-method is-config="true" signature="SetupBeforeMethod(java.lang.String)[pri:0, instance:com.Salesforce.Automation.SalesforceloginCrossbrowser@1b73be9f]" started-at="2024-07-17T19:11:11 IST" name="SetupBeforeMethod" finished-at="2024-07-17T19:11:20 IST" duration-ms="8910" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,15 +18,171 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SetupBeforeMethod -->
-        <test-method signature="CheckRememberme3()[pri:0, instance:com.Salesforce.Automation.Salesforcelogin@363042d7]" started-at="2024-03-12T19:01:00 PDT" name="CheckRememberme3" finished-at="2024-03-12T19:01:11 PDT" duration-ms="11204" status="PASS">
+        <test-method signature="LoginError1()[pri:0, instance:com.Salesforce.Automation.SalesforceloginCrossbrowser@1b73be9f]" started-at="2024-07-17T19:11:20 IST" name="LoginError1" finished-at="2024-07-17T19:11:24 IST" duration-ms="4204" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- CheckRememberme3 -->
-        <test-method is-config="true" signature="TearDownAfterMethod()[pri:0, instance:com.Salesforce.Automation.Salesforcelogin@363042d7]" started-at="2024-03-12T19:01:11 PDT" name="TearDownAfterMethod" finished-at="2024-03-12T19:01:12 PDT" duration-ms="259" status="PASS">
+        </test-method> <!-- LoginError1 -->
+        <test-method is-config="true" signature="TearDownAfterMethod()[pri:0, instance:com.Salesforce.Automation.SalesforceloginCrossbrowser@1b73be9f]" started-at="2024-07-17T19:11:24 IST" name="TearDownAfterMethod" finished-at="2024-07-17T19:11:25 IST" duration-ms="160" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TearDownAfterMethod -->
-      </class> <!-- com.Salesforce.Automation.Salesforcelogin -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      </class> <!-- com.Salesforce.Automation.SalesforceloginCrossbrowser -->
+    </test> <!-- LoginTest -->
+    <test started-at="2024-07-17T19:11:25 IST" name="LoginTestSafari" finished-at="2024-07-17T19:11:44 IST" duration-ms="18850">
+      <class name="com.Salesforce.Automation.SalesforceloginCrossbrowser">
+        <test-method is-config="true" signature="SetupBeforeMethod(java.lang.String)[pri:0, instance:com.Salesforce.Automation.SalesforceloginCrossbrowser@2d1dee39]" started-at="2024-07-17T19:11:25 IST" name="SetupBeforeMethod" finished-at="2024-07-17T19:11:40 IST" duration-ms="14721" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[safari]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetupBeforeMethod -->
+        <test-method signature="LoginError1()[pri:0, instance:com.Salesforce.Automation.SalesforceloginCrossbrowser@2d1dee39]" started-at="2024-07-17T19:11:40 IST" name="LoginError1" finished-at="2024-07-17T19:11:44 IST" duration-ms="3873" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginError1 -->
+        <test-method is-config="true" signature="TearDownAfterMethod()[pri:0, instance:com.Salesforce.Automation.SalesforceloginCrossbrowser@2d1dee39]" started-at="2024-07-17T19:11:44 IST" name="TearDownAfterMethod" finished-at="2024-07-17T19:11:44 IST" duration-ms="247" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDownAfterMethod -->
+      </class> <!-- com.Salesforce.Automation.SalesforceloginCrossbrowser -->
+    </test> <!-- LoginTestSafari -->
+    <test started-at="2024-07-17T19:11:44 IST" name="LoginTestFirefox" finished-at="2024-07-17T19:11:45 IST" duration-ms="1435">
+      <class name="com.Salesforce.Automation.SalesforceloginCrossbrowser">
+        <test-method is-config="true" signature="SetupBeforeMethod(java.lang.String)[pri:0, instance:com.Salesforce.Automation.SalesforceloginCrossbrowser@6ff65192]" started-at="2024-07-17T19:11:44 IST" name="SetupBeforeMethod" finished-at="2024-07-17T19:11:45 IST" duration-ms="1414" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[Cannot find firefox binary in PATH. Make sure firefox is installed. OS appears to be: MAC
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Niwass-MacBook-Pro.local', ip: '2401:4900:1c37:bdaa:e122:3f31:e492:6401%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.6.1', java.version: '17.0.9'
+Driver info: driver.version: FirefoxDriver]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: Cannot find firefox binary in PATH. Make sure firefox is installed. OS appears to be: MAC
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Niwass-MacBook-Pro.local', ip: '2401:4900:1c37:bdaa:e122:3f31:e492:6401%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.6.1', java.version: '17.0.9'
+Driver info: driver.version: FirefoxDriver
+at org.openqa.selenium.firefox.FirefoxBinary.<init>(FirefoxBinary.java:100)
+at java.base/java.util.Optional.orElseGet(Optional.java:364)
+at org.openqa.selenium.firefox.FirefoxOptions.getBinary(FirefoxOptions.java:216)
+at org.openqa.selenium.firefox.FirefoxDriver.toExecutor(FirefoxDriver.java:187)
+at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:147)
+at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:125)
+at com.Salesforce.base.BaseTest.launchbrowser(BaseTest.java:80)
+at com.Salesforce.base.BaseTest.SetupBeforeMethod(BaseTest.java:42)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:823)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:590)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetupBeforeMethod -->
+        <test-method signature="LoginError1()[pri:0, instance:com.Salesforce.Automation.SalesforceloginCrossbrowser@6ff65192]" started-at="2024-07-17T19:11:45 IST" name="LoginError1" finished-at="2024-07-17T19:11:45 IST" duration-ms="1" status="SKIP">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[Cannot find firefox binary in PATH. Make sure firefox is installed. OS appears to be: MAC
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Niwass-MacBook-Pro.local', ip: '2401:4900:1c37:bdaa:e122:3f31:e492:6401%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.6.1', java.version: '17.0.9'
+Driver info: driver.version: FirefoxDriver]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: Cannot find firefox binary in PATH. Make sure firefox is installed. OS appears to be: MAC
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Niwass-MacBook-Pro.local', ip: '2401:4900:1c37:bdaa:e122:3f31:e492:6401%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.6.1', java.version: '17.0.9'
+Driver info: driver.version: FirefoxDriver
+at org.openqa.selenium.firefox.FirefoxBinary.<init>(FirefoxBinary.java:100)
+at java.base/java.util.Optional.orElseGet(Optional.java:364)
+at org.openqa.selenium.firefox.FirefoxOptions.getBinary(FirefoxOptions.java:216)
+at org.openqa.selenium.firefox.FirefoxDriver.toExecutor(FirefoxDriver.java:187)
+at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:147)
+at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:125)
+at com.Salesforce.base.BaseTest.launchbrowser(BaseTest.java:80)
+at com.Salesforce.base.BaseTest.SetupBeforeMethod(BaseTest.java:42)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:823)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:590)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginError1 -->
+        <test-method is-config="true" signature="TearDownAfterMethod()[pri:0, instance:com.Salesforce.Automation.SalesforceloginCrossbrowser@6ff65192]" started-at="2024-07-17T19:11:45 IST" name="TearDownAfterMethod" finished-at="2024-07-17T19:11:45 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDownAfterMethod -->
+      </class> <!-- com.Salesforce.Automation.SalesforceloginCrossbrowser -->
+    </test> <!-- LoginTestFirefox -->
+  </suite> <!-- SFDCSuite -->
 </testng-results>

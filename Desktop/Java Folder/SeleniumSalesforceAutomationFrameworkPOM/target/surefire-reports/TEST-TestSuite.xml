@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="40.525" tests="5" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="38.321" tests="5" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="17"/>
-    <property name="webdriver.chrome.driver" value="/Users/niwas/.cache/selenium/chromedriver/mac64/121.0.6167.184/chromedriver"/>
+    <property name="webdriver.chrome.driver" value="/Users/niwas/.cache/selenium/chromedriver/mac64/122.0.6261.111/chromedriver"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
     <property name="java.class.path" value="/Users/niwas/Desktop/Java Folder/SeleniumSalesforceAutomationFrameworkPOM/target/test-classes:/Users/niwas/Desktop/Java Folder/SeleniumSalesforceAutomationFrameworkPOM/target/classes:/Users/niwas/.m2/repository/org/apache/poi/poi/5.2.5/poi-5.2.5.jar:/Users/niwas/.m2/repository/commons-codec/commons-codec/1.16.0/commons-codec-1.16.0.jar:/Users/niwas/.m2/repository/org/apache/commons/commons-collections4/4.4/commons-collections4-4.4.jar:/Users/niwas/.m2/repository/org/apache/commons/commons-math3/3.6.1/commons-math3-3.6.1.jar:/Users/niwas/.m2/repository/commons-io/commons-io/2.15.0/commons-io-2.15.0.jar:/Users/niwas/.m2/repository/com/zaxxer/SparseBitSet/1.3/SparseBitSet-1.3.jar:/Users/niwas/.m2/repository/org/apache/poi/poi-ooxml/5.2.5/poi-ooxml-5.2.5.jar:/Users/niwas/.m2/repository/org/apache/poi/poi-ooxml-lite/5.2.5/poi-ooxml-lite-5.2.5.jar:/Users/niwas/.m2/repository/org/apache/xmlbeans/xmlbeans/5.2.0/xmlbeans-5.2.0.jar:/Users/niwas/.m2/repository/org/apache/commons/commons-compress/1.25.0/commons-compress-1.25.0.jar:/Users/niwas/.m2/repository/com/github/virtuald/curvesapi/1.08/curvesapi-1.08.jar:/Users/niwas/.m2/repository/org/apache/logging/log4j/log4j-core/2.22.1/log4j-core-2.22.1.jar:/Users/niwas/.m2/repository/org/seleniumhq/selenium/selenium-java/3.141.59/selenium-java-3.141.59.jar:/Users/niwas/.m2/repository/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar:/Users/niwas/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.141.59/selenium-chrome-driver-3.141.59.jar:/Users/niwas/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.141.59/selenium-edge-driver-3.141.59.jar:/Users/niwas/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.141.59/selenium-firefox-driver-3.141.59.jar:/Users/niwas/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.141.59/selenium-ie-driver-3.141.59.jar:/Users/niwas/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.141.59/selenium-opera-driver-3.141.59.jar:/Users/niwas/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar:/Users/niwas/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.141.59/selenium-safari-driver-3.141.59.jar:/Users/niwas/.m2/repository/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar:/Users/niwas/.m2/repository/net/bytebuddy/byte-buddy/1.8.15/byte-buddy-1.8.15.jar:/Users/niwas/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/niwas/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar:/Users/niwas/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/Users/niwas/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar:/Users/niwas/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/Users/niwas/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/Users/niwas/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/Users/niwas/.m2/repository/com/squareup/okhttp3/okhttp/3.11.0/okhttp-3.11.0.jar:/Users/niwas/.m2/repository/com/squareup/okio/okio/1.14.0/okio-1.14.0.jar:/Users/niwas/.m2/repository/io/github/bonigarcia/webdrivermanager/5.6.3/webdrivermanager-5.6.3.jar:/Users/niwas/.m2/repository/org/slf4j/slf4j-api/2.0.10/slf4j-api-2.0.10.jar:/Users/niwas/.m2/repository/com/google/code/gson/gson/2.10.1/gson-2.10.1.jar:/Users/niwas/.m2/repository/com/github/docker-java/docker-java/3.3.4/docker-java-3.3.4.jar:/Users/niwas/.m2/repository/com/github/docker-java/docker-java-core/3.3.4/docker-java-core-3.3.4.jar:/Users/niwas/.m2/repository/com/github/docker-java/docker-java-api/3.3.4/docker-java-api-3.3.4.jar:/Users/niwas/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.10.3/jackson-annotations-2.10.3.jar:/Users/niwas/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.10.3/jackson-databind-2.10.3.jar:/Users/niwas/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.10.3/jackson-core-2.10.3.jar:/Users/niwas/.m2/repository/org/bouncycastle/bcpkix-jdk18on/1.76/bcpkix-jdk18on-1.76.jar:/Users/niwas/.m2/repository/org/bouncycastle/bcprov-jdk18on/1.76/bcprov-jdk18on-1.76.jar:/Users/niwas/.m2/repository/org/bouncycastle/bcutil-jdk18on/1.76/bcutil-jdk18on-1.76.jar:/Users/niwas/.m2/repository/org/slf4j/jcl-over-slf4j/1.7.30/jcl-over-slf4j-1.7.30.jar:/Users/niwas/.m2/repository/com/github/docker-java/docker-java-transport-httpclient5/3.3.4/docker-java-transport-httpclient5-3.3.4.jar:/Users/niwas/.m2/repository/com/github/docker-java/docker-java-transport/3.3.4/docker-java-transport-3.3.4.jar:/Users/niwas/.m2/repository/net/java/dev/jna/jna/5.13.0/jna-5.13.0.jar:/Users/niwas/.m2/repository/org/brotli/dec/0.1.2/dec-0.1.2.jar:/Users/niwas/.m2/repository/org/apache/commons/commons-lang3/3.14.0/commons-lang3-3.14.0.jar:/Users/niwas/.m2/repository/org/apache/httpcomponents/client5/httpclient5/5.2.1/httpclient5-5.2.1.jar:/Users/niwas/.m2/repository/org/apache/httpcomponents/core5/httpcore5/5.2/httpcore5-5.2.jar:/Users/niwas/.m2/repository/org/apache/httpcomponents/core5/httpcore5-h2/5.2/httpcore5-h2-5.2.jar:/Users/niwas/.m2/repository/org/testng/testng/7.7.1/testng-7.7.1.jar:/Users/niwas/.m2/repository/com/beust/jcommander/1.82/jcommander-1.82.jar:/Users/niwas/.m2/repository/org/webjars/jquery/3.6.1/jquery-3.6.1.jar:/Users/niwas/.m2/repository/org/apache/logging/log4j/log4j-api/2.22.1/log4j-api-2.22.1.jar:/Users/niwas/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar:/Users/niwas/.m2/repository/io/reactivex/rxjava3/rxjava/3.0.4/rxjava-3.0.4.jar:/Users/niwas/.m2/repository/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3.jar:/Users/niwas/.m2/repository/org/freemarker/freemarker/2.3.30/freemarker-2.3.30.jar:/Users/niwas/.m2/repository/org/projectlombok/lombok/1.18.28/lombok-1.18.28.jar:"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
@@ -14,7 +14,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk-17.jdk/Contents/Home/lib"/>
-    <property name="sun.java.command" value="/Users/niwas/Desktop/Java Folder/SeleniumSalesforceAutomationFrameworkPOM/target/surefire/surefirebooter-20240219003810351_3.jar /Users/niwas/Desktop/Java Folder/SeleniumSalesforceAutomationFrameworkPOM/target/surefire 2024-02-19T00-38-10_140-jvmRun1 surefire-20240219003810351_1tmp surefire_0-20240219003810351_2tmp"/>
+    <property name="sun.java.command" value="/Users/niwas/Desktop/Java Folder/SeleniumSalesforceAutomationFrameworkPOM/target/surefire/surefirebooter-20240312192037257_3.jar /Users/niwas/Desktop/Java Folder/SeleniumSalesforceAutomationFrameworkPOM/target/surefire 2024-03-12T19-20-37_035-jvmRun1 surefire-20240312192037257_1tmp surefire_0-20240312192037257_2tmp"/>
     <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="/Users/niwas/Desktop/Java Folder/SeleniumSalesforceAutomationFrameworkPOM/target/test-classes:/Users/niwas/Desktop/Java Folder/SeleniumSalesforceAutomationFrameworkPOM/target/classes:/Users/niwas/.m2/repository/org/apache/poi/poi/5.2.5/poi-5.2.5.jar:/Users/niwas/.m2/repository/commons-codec/commons-codec/1.16.0/commons-codec-1.16.0.jar:/Users/niwas/.m2/repository/org/apache/commons/commons-collections4/4.4/commons-collections4-4.4.jar:/Users/niwas/.m2/repository/org/apache/commons/commons-math3/3.6.1/commons-math3-3.6.1.jar:/Users/niwas/.m2/repository/commons-io/commons-io/2.15.0/commons-io-2.15.0.jar:/Users/niwas/.m2/repository/com/zaxxer/SparseBitSet/1.3/SparseBitSet-1.3.jar:/Users/niwas/.m2/repository/org/apache/poi/poi-ooxml/5.2.5/poi-ooxml-5.2.5.jar:/Users/niwas/.m2/repository/org/apache/poi/poi-ooxml-lite/5.2.5/poi-ooxml-lite-5.2.5.jar:/Users/niwas/.m2/repository/org/apache/xmlbeans/xmlbeans/5.2.0/xmlbeans-5.2.0.jar:/Users/niwas/.m2/repository/org/apache/commons/commons-compress/1.25.0/commons-compress-1.25.0.jar:/Users/niwas/.m2/repository/com/github/virtuald/curvesapi/1.08/curvesapi-1.08.jar:/Users/niwas/.m2/repository/org/apache/logging/log4j/log4j-core/2.22.1/log4j-core-2.22.1.jar:/Users/niwas/.m2/repository/org/seleniumhq/selenium/selenium-java/3.141.59/selenium-java-3.141.59.jar:/Users/niwas/.m2/repository/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar:/Users/niwas/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.141.59/selenium-chrome-driver-3.141.59.jar:/Users/niwas/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.141.59/selenium-edge-driver-3.141.59.jar:/Users/niwas/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.141.59/selenium-firefox-driver-3.141.59.jar:/Users/niwas/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.141.59/selenium-ie-driver-3.141.59.jar:/Users/niwas/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.141.59/selenium-opera-driver-3.141.59.jar:/Users/niwas/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar:/Users/niwas/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.141.59/selenium-safari-driver-3.141.59.jar:/Users/niwas/.m2/repository/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar:/Users/niwas/.m2/repository/net/bytebuddy/byte-buddy/1.8.15/byte-buddy-1.8.15.jar:/Users/niwas/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/niwas/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar:/Users/niwas/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/Users/niwas/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar:/Users/niwas/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/Users/niwas/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/Users/niwas/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/Users/niwas/.m2/repository/com/squareup/okhttp3/okhttp/3.11.0/okhttp-3.11.0.jar:/Users/niwas/.m2/repository/com/squareup/okio/okio/1.14.0/okio-1.14.0.jar:/Users/niwas/.m2/repository/io/github/bonigarcia/webdrivermanager/5.6.3/webdrivermanager-5.6.3.jar:/Users/niwas/.m2/repository/org/slf4j/slf4j-api/2.0.10/slf4j-api-2.0.10.jar:/Users/niwas/.m2/repository/com/google/code/gson/gson/2.10.1/gson-2.10.1.jar:/Users/niwas/.m2/repository/com/github/docker-java/docker-java/3.3.4/docker-java-3.3.4.jar:/Users/niwas/.m2/repository/com/github/docker-java/docker-java-core/3.3.4/docker-java-core-3.3.4.jar:/Users/niwas/.m2/repository/com/github/docker-java/docker-java-api/3.3.4/docker-java-api-3.3.4.jar:/Users/niwas/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.10.3/jackson-annotations-2.10.3.jar:/Users/niwas/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.10.3/jackson-databind-2.10.3.jar:/Users/niwas/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.10.3/jackson-core-2.10.3.jar:/Users/niwas/.m2/repository/org/bouncycastle/bcpkix-jdk18on/1.76/bcpkix-jdk18on-1.76.jar:/Users/niwas/.m2/repository/org/bouncycastle/bcprov-jdk18on/1.76/bcprov-jdk18on-1.76.jar:/Users/niwas/.m2/repository/org/bouncycastle/bcutil-jdk18on/1.76/bcutil-jdk18on-1.76.jar:/Users/niwas/.m2/repository/org/slf4j/jcl-over-slf4j/1.7.30/jcl-over-slf4j-1.7.30.jar:/Users/niwas/.m2/repository/com/github/docker-java/docker-java-transport-httpclient5/3.3.4/docker-java-transport-httpclient5-3.3.4.jar:/Users/niwas/.m2/repository/com/github/docker-java/docker-java-transport/3.3.4/docker-java-transport-3.3.4.jar:/Users/niwas/.m2/repository/net/java/dev/jna/jna/5.13.0/jna-5.13.0.jar:/Users/niwas/.m2/repository/org/brotli/dec/0.1.2/dec-0.1.2.jar:/Users/niwas/.m2/repository/org/apache/commons/commons-lang3/3.14.0/commons-lang3-3.14.0.jar:/Users/niwas/.m2/repository/org/apache/httpcomponents/client5/httpclient5/5.2.1/httpclient5-5.2.1.jar:/Users/niwas/.m2/repository/org/apache/httpcomponents/core5/httpcore5/5.2/httpcore5-5.2.jar:/Users/niwas/.m2/repository/org/apache/httpcomponents/core5/httpcore5-h2/5.2/httpcore5-h2-5.2.jar:/Users/niwas/.m2/repository/org/testng/testng/7.7.1/testng-7.7.1.jar:/Users/niwas/.m2/repository/com/beust/jcommander/1.82/jcommander-1.82.jar:/Users/niwas/.m2/repository/org/webjars/jquery/3.6.1/jquery-3.6.1.jar:/Users/niwas/.m2/repository/org/apache/logging/log4j/log4j-api/2.22.1/log4j-api-2.22.1.jar:/Users/niwas/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar:/Users/niwas/.m2/repository/io/reactivex/rxjava3/rxjava/3.0.4/rxjava-3.0.4.jar:/Users/niwas/.m2/repository/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3.jar:/Users/niwas/.m2/repository/org/freemarker/freemarker/2.3.30/freemarker-2.3.30.jar:/Users/niwas/.m2/repository/org/projectlombok/lombok/1.18.28/lombok-1.18.28.jar:"/>
@@ -25,13 +25,12 @@
     <property name="java.version.date" value="2023-10-17"/>
     <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk-17.jdk/Contents/Home"/>
     <property name="file.separator" value="/"/>
-    <property name="style.color" value="always"/>
     <property name="basedir" value="/Users/niwas/Desktop/Java Folder/SeleniumSalesforceAutomationFrameworkPOM"/>
     <property name="java.vm.compressedOopsMode" value="Zero based"/>
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="/Users/niwas/Desktop/Java Folder/SeleniumSalesforceAutomationFrameworkPOM/target/surefire/surefirebooter-20240219003810351_3.jar"/>
+    <property name="surefire.real.class.path" value="/Users/niwas/Desktop/Java Folder/SeleniumSalesforceAutomationFrameworkPOM/target/surefire/surefirebooter-20240312192037257_3.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.runtime.version" value="17.0.9+11-LTS-201"/>
@@ -57,123 +56,123 @@
     <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.class.version" value="61.0"/>
   </properties>
-  <testcase name="CheckRememberme3" classname="com.Salesforce.Automation.Salesforcelogin" time="9.235">
-    <system-out><![CDATA[2024-02-19 00:38:12,135 INFO  SFDCListenerUtilities.java:30 - LoginTest...........execution has started..............
-2024-02-19 00:38:12,513 INFO  BaseTest.java:40 - ----------------SetUp Before Method executed-------------- 
-2024-02-19 00:38:15,123 INFO  BaseTest.java:62 - Browser instance is created
-2024-02-19 00:38:15,445 INFO  BaseTest.java:65 - Window is maximized
-2024-02-19 00:38:16,469 INFO  BaseTest.java:95 - https://login.salesforce.com/ was entered
-2024-02-19 00:38:16,472 INFO  SFDCListenerUtilities.java:52 - CheckRememberme3............execution started..............
-2024-02-19 00:38:17,165 INFO  SFDCBasePage.java:48 - User data is entered in Username textbox textbox
-2024-02-19 00:38:17,649 INFO  SFDCBasePage.java:48 - User data is entered in password field textbox
-2024-02-19 00:38:17,773 INFO  SFDCBasePage.java:89 - Waited for checkbox visibility
-2024-02-19 00:38:17,921 INFO  SFDCBasePage.java:59 - Check Box button is clicked
-2024-02-19 00:38:23,455 INFO  SFDCBasePage.java:59 - login button button is clicked
-2024-02-19 00:38:23,487 INFO  SFDCBasePage.java:70 - Text is extracted from User Page
-2024-02-19 00:38:23,599 INFO  SFDCBasePage.java:59 - Dropdown Element button is clicked
-2024-02-19 00:38:24,007 INFO  SFDCBasePage.java:59 - Logout button is clicked
-2024-02-19 00:38:24,948 INFO  SFDCBasePage.java:89 - Waited for loginid visibility
+  <testcase name="CheckRememberme3" classname="com.Salesforce.Automation.Salesforcelogin" time="9.132">
+    <system-out><![CDATA[2024-03-12 19:20:39,125 INFO  SFDCListenerUtilities.java:30 - LoginTest...........execution has started..............
+2024-03-12 19:20:39,596 INFO  BaseTest.java:40 - ----------------SetUp Before Method executed-------------- 
+2024-03-12 19:20:42,859 INFO  BaseTest.java:62 - Browser instance is created
+2024-03-12 19:20:43,257 INFO  BaseTest.java:65 - Window is maximized
+2024-03-12 19:20:44,199 INFO  BaseTest.java:95 - https://login.salesforce.com/ was entered
+2024-03-12 19:20:44,210 INFO  SFDCListenerUtilities.java:52 - CheckRememberme3............execution started..............
+2024-03-12 19:20:44,643 INFO  SFDCBasePage.java:48 - User data is entered in Username textbox textbox
+2024-03-12 19:20:45,080 INFO  SFDCBasePage.java:48 - User data is entered in password field textbox
+2024-03-12 19:20:45,421 INFO  SFDCBasePage.java:89 - Waited for checkbox visibility
+2024-03-12 19:20:45,588 INFO  SFDCBasePage.java:59 - Check Box button is clicked
+2024-03-12 19:20:51,345 INFO  SFDCBasePage.java:59 - login button button is clicked
+2024-03-12 19:20:51,382 INFO  SFDCBasePage.java:70 - Text is extracted from User Page
+2024-03-12 19:20:51,474 INFO  SFDCBasePage.java:59 - Dropdown Element button is clicked
+2024-03-12 19:20:51,868 INFO  SFDCBasePage.java:59 - Logout button is clicked
+2024-03-12 19:20:53,220 INFO  SFDCBasePage.java:89 - Waited for loginid visibility
 Usrname is displayed
 ]]></system-out>
     <system-err><![CDATA[SLF4J(W): No SLF4J providers were found.
 SLF4J(W): Defaulting to no-operation (NOP) logger implementation
 SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
-Starting ChromeDriver 121.0.6167.184 (057a8ae7deb3374d0f1b04b36304d236f0136188-refs/branch-heads/6167@{#1818}) on port 23904
+Starting ChromeDriver 122.0.6261.111 (9d4c1072da62b411b351a38b9ed6214ab236aa7b-refs/branch-heads/6261@{#1015}) on port 10745
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Feb 19, 2024 12:38:14 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+Mar 12, 2024 7:20:42 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="Forgotpassword4A" classname="com.Salesforce.Automation.Salesforcelogin" time="1.721">
-    <system-out><![CDATA[2024-02-19 00:38:25,714 INFO  SFDCListenerUtilities.java:59 - CheckRememberme3............execution completed with success..............
-2024-02-19 00:38:25,955 INFO  BaseTest.java:103 - Browser instance closed
-2024-02-19 00:38:25,957 INFO  BaseTest.java:49 - ----------------Tear Down After Method executed-------------- 
-2024-02-19 00:38:25,960 INFO  BaseTest.java:40 - ----------------SetUp Before Method executed-------------- 
-2024-02-19 00:38:27,445 INFO  BaseTest.java:62 - Browser instance is created
-2024-02-19 00:38:27,738 INFO  BaseTest.java:65 - Window is maximized
-2024-02-19 00:38:28,706 INFO  BaseTest.java:95 - https://login.salesforce.com/ was entered
-2024-02-19 00:38:28,708 INFO  SFDCListenerUtilities.java:52 - Forgotpassword4A............execution started..............
-2024-02-19 00:38:29,205 INFO  SFDCBasePage.java:59 - Forgot Password button is clicked
-2024-02-19 00:38:29,244 INFO  SFDCBasePage.java:70 - Text is extracted from Forgot Password
-2024-02-19 00:38:29,529 INFO  SFDCBasePage.java:48 - User data is entered in Userid textbox
-2024-02-19 00:38:30,396 INFO  SFDCBasePage.java:59 - Continue button button is clicked
-2024-02-19 00:38:30,431 INFO  SFDCBasePage.java:70 - Text is extracted from New Page Header
+  <testcase name="Forgotpassword4A" classname="com.Salesforce.Automation.Salesforcelogin" time="1.479">
+    <system-out><![CDATA[2024-03-12 19:20:53,352 INFO  SFDCListenerUtilities.java:59 - CheckRememberme3............execution completed with success..............
+2024-03-12 19:20:53,613 INFO  BaseTest.java:103 - Browser instance closed
+2024-03-12 19:20:53,614 INFO  BaseTest.java:49 - ----------------Tear Down After Method executed-------------- 
+2024-03-12 19:20:53,618 INFO  BaseTest.java:40 - ----------------SetUp Before Method executed-------------- 
+2024-03-12 19:20:55,110 INFO  BaseTest.java:62 - Browser instance is created
+2024-03-12 19:20:55,458 INFO  BaseTest.java:65 - Window is maximized
+2024-03-12 19:20:56,419 INFO  BaseTest.java:95 - https://login.salesforce.com/ was entered
+2024-03-12 19:20:56,421 INFO  SFDCListenerUtilities.java:52 - Forgotpassword4A............execution started..............
+2024-03-12 19:20:56,845 INFO  SFDCBasePage.java:59 - Forgot Password button is clicked
+2024-03-12 19:20:56,885 INFO  SFDCBasePage.java:70 - Text is extracted from Forgot Password
+2024-03-12 19:20:57,084 INFO  SFDCBasePage.java:48 - User data is entered in Userid textbox
+2024-03-12 19:20:57,857 INFO  SFDCBasePage.java:59 - Continue button button is clicked
+2024-03-12 19:20:57,901 INFO  SFDCBasePage.java:70 - Text is extracted from New Page Header
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 121.0.6167.184 (057a8ae7deb3374d0f1b04b36304d236f0136188-refs/branch-heads/6167@{#1818}) on port 45202
+    <system-err><![CDATA[Starting ChromeDriver 122.0.6261.111 (9d4c1072da62b411b351a38b9ed6214ab236aa7b-refs/branch-heads/6261@{#1015}) on port 3716
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Feb 19, 2024 12:38:27 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+Mar 12, 2024 7:20:55 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="Forgotpassword4B" classname="com.Salesforce.Automation.Salesforcelogin" time="1.46">
-    <system-out><![CDATA[2024-02-19 00:38:30,431 INFO  SFDCListenerUtilities.java:59 - Forgotpassword4A............execution completed with success..............
-2024-02-19 00:38:30,557 INFO  BaseTest.java:103 - Browser instance closed
-2024-02-19 00:38:30,557 INFO  BaseTest.java:49 - ----------------Tear Down After Method executed-------------- 
-2024-02-19 00:38:30,567 INFO  BaseTest.java:40 - ----------------SetUp Before Method executed-------------- 
-2024-02-19 00:38:31,932 INFO  BaseTest.java:62 - Browser instance is created
-2024-02-19 00:38:32,206 INFO  BaseTest.java:65 - Window is maximized
-2024-02-19 00:38:33,139 INFO  BaseTest.java:95 - https://login.salesforce.com/ was entered
-2024-02-19 00:38:33,140 INFO  SFDCListenerUtilities.java:52 - Forgotpassword4B............execution started..............
-2024-02-19 00:38:33,907 INFO  SFDCBasePage.java:48 - User data is entered in Usrname Text Box textbox
-2024-02-19 00:38:34,192 INFO  SFDCBasePage.java:48 - User data is entered in Password Field textbox
-2024-02-19 00:38:34,527 INFO  SFDCBasePage.java:59 - login button button is clicked
-2024-02-19 00:38:34,571 INFO  SFDCBasePage.java:70 - Text is extracted from Error Message
+  <testcase name="Forgotpassword4B" classname="com.Salesforce.Automation.Salesforcelogin" time="1.18">
+    <system-out><![CDATA[2024-03-12 19:20:57,902 INFO  SFDCListenerUtilities.java:59 - Forgotpassword4A............execution completed with success..............
+2024-03-12 19:20:58,071 INFO  BaseTest.java:103 - Browser instance closed
+2024-03-12 19:20:58,072 INFO  BaseTest.java:49 - ----------------Tear Down After Method executed-------------- 
+2024-03-12 19:20:58,075 INFO  BaseTest.java:40 - ----------------SetUp Before Method executed-------------- 
+2024-03-12 19:20:59,462 INFO  BaseTest.java:62 - Browser instance is created
+2024-03-12 19:20:59,758 INFO  BaseTest.java:65 - Window is maximized
+2024-03-12 19:21:00,782 INFO  BaseTest.java:95 - https://login.salesforce.com/ was entered
+2024-03-12 19:21:00,783 INFO  SFDCListenerUtilities.java:52 - Forgotpassword4B............execution started..............
+2024-03-12 19:21:01,024 INFO  SFDCBasePage.java:48 - User data is entered in Usrname Text Box textbox
+2024-03-12 19:21:01,181 INFO  SFDCBasePage.java:48 - User data is entered in Password Field textbox
+2024-03-12 19:21:01,457 INFO  SFDCBasePage.java:59 - login button button is clicked
+2024-03-12 19:21:01,702 INFO  SFDCBasePage.java:70 - Text is extracted from Error Message
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 121.0.6167.184 (057a8ae7deb3374d0f1b04b36304d236f0136188-refs/branch-heads/6167@{#1818}) on port 12609
+    <system-err><![CDATA[Starting ChromeDriver 122.0.6261.111 (9d4c1072da62b411b351a38b9ed6214ab236aa7b-refs/branch-heads/6261@{#1015}) on port 28065
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Feb 19, 2024 12:38:31 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+Mar 12, 2024 7:20:59 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="LoginError1" classname="com.Salesforce.Automation.Salesforcelogin" time="1.768">
-    <system-out><![CDATA[2024-02-19 00:38:34,602 INFO  SFDCListenerUtilities.java:59 - Forgotpassword4B............execution completed with success..............
-2024-02-19 00:38:34,751 INFO  BaseTest.java:103 - Browser instance closed
-2024-02-19 00:38:34,752 INFO  BaseTest.java:49 - ----------------Tear Down After Method executed-------------- 
-2024-02-19 00:38:34,756 INFO  BaseTest.java:40 - ----------------SetUp Before Method executed-------------- 
-2024-02-19 00:38:36,189 INFO  BaseTest.java:62 - Browser instance is created
-2024-02-19 00:38:36,474 INFO  BaseTest.java:65 - Window is maximized
-2024-02-19 00:38:37,495 INFO  BaseTest.java:95 - https://login.salesforce.com/ was entered
-2024-02-19 00:38:37,496 INFO  SFDCListenerUtilities.java:52 - LoginError1............execution started..............
-2024-02-19 00:38:37,496 INFO  Salesforcelogin.java:36 - ------LoginError1 Automation Script started-----------
-2024-02-19 00:38:37,800 INFO  SFDCBasePage.java:48 - User data is entered in Username textbox textbox
-2024-02-19 00:38:37,928 INFO  SFDCBasePage.java:48 - User data is entered in password field textbox
-2024-02-19 00:38:39,189 INFO  SFDCBasePage.java:59 - login button button is clicked
-2024-02-19 00:38:39,261 INFO  SFDCBasePage.java:70 - Text is extracted from Error Message
+  <testcase name="LoginError1" classname="com.Salesforce.Automation.Salesforcelogin" time="1.137">
+    <system-out><![CDATA[2024-03-12 19:21:01,965 INFO  SFDCListenerUtilities.java:59 - Forgotpassword4B............execution completed with success..............
+2024-03-12 19:21:02,255 INFO  BaseTest.java:103 - Browser instance closed
+2024-03-12 19:21:02,255 INFO  BaseTest.java:49 - ----------------Tear Down After Method executed-------------- 
+2024-03-12 19:21:02,258 INFO  BaseTest.java:40 - ----------------SetUp Before Method executed-------------- 
+2024-03-12 19:21:03,704 INFO  BaseTest.java:62 - Browser instance is created
+2024-03-12 19:21:04,066 INFO  BaseTest.java:65 - Window is maximized
+2024-03-12 19:21:05,049 INFO  BaseTest.java:95 - https://login.salesforce.com/ was entered
+2024-03-12 19:21:05,049 INFO  SFDCListenerUtilities.java:52 - LoginError1............execution started..............
+2024-03-12 19:21:05,051 INFO  Salesforcelogin.java:40 - ------LoginError1 Automation Script started-----------
+2024-03-12 19:21:05,325 INFO  SFDCBasePage.java:48 - User data is entered in Username textbox textbox
+2024-03-12 19:21:05,474 INFO  SFDCBasePage.java:48 - User data is entered in password field textbox
+2024-03-12 19:21:06,153 INFO  SFDCBasePage.java:59 - login button button is clicked
+2024-03-12 19:21:06,186 INFO  SFDCBasePage.java:70 - Text is extracted from Error Message
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 121.0.6167.184 (057a8ae7deb3374d0f1b04b36304d236f0136188-refs/branch-heads/6167@{#1818}) on port 11641
+    <system-err><![CDATA[Starting ChromeDriver 122.0.6261.111 (9d4c1072da62b411b351a38b9ed6214ab236aa7b-refs/branch-heads/6261@{#1015}) on port 1255
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Feb 19, 2024 12:38:36 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+Mar 12, 2024 7:21:03 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="LogintoSalesforce2" classname="com.Salesforce.Automation.Salesforcelogin" time="8.347">
-    <system-out><![CDATA[2024-02-19 00:38:39,264 INFO  SFDCListenerUtilities.java:59 - LoginError1............execution completed with success..............
-2024-02-19 00:38:39,464 INFO  BaseTest.java:103 - Browser instance closed
-2024-02-19 00:38:39,465 INFO  BaseTest.java:49 - ----------------Tear Down After Method executed-------------- 
-2024-02-19 00:38:39,468 INFO  BaseTest.java:40 - ----------------SetUp Before Method executed-------------- 
-2024-02-19 00:38:40,923 INFO  BaseTest.java:62 - Browser instance is created
-2024-02-19 00:38:41,192 INFO  BaseTest.java:65 - Window is maximized
-2024-02-19 00:38:42,130 INFO  BaseTest.java:95 - https://login.salesforce.com/ was entered
-2024-02-19 00:38:42,131 INFO  SFDCListenerUtilities.java:52 - LogintoSalesforce2............execution started..............
-2024-02-19 00:38:42,131 INFO  Salesforcelogin.java:55 - ------LoginError1 Automation Script started-----------
-2024-02-19 00:38:42,570 INFO  SFDCBasePage.java:48 - User data is entered in Username textbox textbox
-2024-02-19 00:38:42,814 INFO  SFDCBasePage.java:48 - User data is entered in password field textbox
-2024-02-19 00:38:50,445 INFO  SFDCBasePage.java:59 - login button button is clicked
-2024-02-19 00:38:50,477 INFO  SFDCBasePage.java:70 - Text is extracted from User Page
+  <testcase name="LogintoSalesforce2" classname="com.Salesforce.Automation.Salesforcelogin" time="6.242">
+    <system-out><![CDATA[2024-03-12 19:21:06,187 INFO  SFDCListenerUtilities.java:59 - LoginError1............execution completed with success..............
+2024-03-12 19:21:06,408 INFO  BaseTest.java:103 - Browser instance closed
+2024-03-12 19:21:06,409 INFO  BaseTest.java:49 - ----------------Tear Down After Method executed-------------- 
+2024-03-12 19:21:06,413 INFO  BaseTest.java:40 - ----------------SetUp Before Method executed-------------- 
+2024-03-12 19:21:07,715 INFO  BaseTest.java:62 - Browser instance is created
+2024-03-12 19:21:07,983 INFO  BaseTest.java:65 - Window is maximized
+2024-03-12 19:21:08,978 INFO  BaseTest.java:95 - https://login.salesforce.com/ was entered
+2024-03-12 19:21:08,979 INFO  SFDCListenerUtilities.java:52 - LogintoSalesforce2............execution started..............
+2024-03-12 19:21:08,980 INFO  Salesforcelogin.java:59 - ------LoginError1 Automation Script started-----------
+2024-03-12 19:21:09,252 INFO  SFDCBasePage.java:48 - User data is entered in Username textbox textbox
+2024-03-12 19:21:09,409 INFO  SFDCBasePage.java:48 - User data is entered in password field textbox
+2024-03-12 19:21:15,190 INFO  SFDCBasePage.java:59 - login button button is clicked
+2024-03-12 19:21:15,221 INFO  SFDCBasePage.java:70 - Text is extracted from User Page
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 121.0.6167.184 (057a8ae7deb3374d0f1b04b36304d236f0136188-refs/branch-heads/6167@{#1818}) on port 22661
+    <system-err><![CDATA[Starting ChromeDriver 122.0.6261.111 (9d4c1072da62b411b351a38b9ed6214ab236aa7b-refs/branch-heads/6261@{#1015}) on port 20641
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Feb 19, 2024 12:38:40 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+Mar 12, 2024 7:21:07 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
