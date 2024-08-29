@@ -35,7 +35,7 @@ public class LoginPage extends SFDCBasePage {
 
 public void enterwrongusername() {
 	 String wrongun = PropertiesUtilty.ReadingdatafromPropertyfile(Constants.APPLICATION_PROPERTIES, "wrongusername");	
-     enterText(userNameElement, wrongun, "Usrname Text Box") ;
+     enterText(userNameElement, wrongun, "Usrname Field") ;
 }
   
 public void enterwrongpswrd() {

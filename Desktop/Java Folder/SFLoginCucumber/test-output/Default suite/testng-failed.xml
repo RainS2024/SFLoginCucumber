@@ -6,7 +6,7 @@
       <class name="com.SFDCloginCucumber.runnerfiles.SFDCLoginRunner">
         <methods>
           <include name="setUpClass"/>
-          <include name="runScenario" invocation-numbers="1"/>
+          <include name="runScenario" invocation-numbers="0 1 2 3 4"/>
           <include name="tearDownClass"/>
         </methods>
       </class> <!-- com.SFDCloginCucumber.runnerfiles.SFDCLoginRunner -->

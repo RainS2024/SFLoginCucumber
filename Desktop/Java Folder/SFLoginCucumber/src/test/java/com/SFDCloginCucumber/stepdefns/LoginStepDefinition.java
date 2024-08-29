@@ -97,23 +97,28 @@ public class LoginStepDefinition {
 		//extentreport.logTestInfo("Browser instance closed");
 		driver=null;
 	}				
+
 	
 @Before
-public void beforeeachScenario() {
+public void before_each_Scenario() {
 	launchbrowser("chrome");
 }
 	
 @BeforeAll
-public static void beforeallScenario() {
+public static void before_all_Scenario() {
 log=LogObject.getLogger();
 }
 
 
 @After
-public void AftereeachScenario() {
+public void Aftere_each_Scenario() {
 closeBrowser();
 }
 
+/*@AfterStep
+public void After_eachstep(Scenario sc) {
+
+}*/
 
 @Given("User open Salesforce application")
 public void user_open_salesforce_application() throws InterruptedException {

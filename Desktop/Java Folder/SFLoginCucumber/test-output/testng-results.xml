@@ -2,26 +2,26 @@
 <testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-02-25T13:33:25 PST" name="Default suite" finished-at="2024-02-25T13:34:08 PST" duration-ms="43256">
+  <suite started-at="2024-08-28T12:15:47 PDT" name="SFDCSuite" finished-at="2024-08-28T12:16:30 PDT" duration-ms="43129">
     <groups>
       <group name="cucumber">
-        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.SFDCloginCucumber.runnerfiles.SFDCLoginRunner@a9cd3b1]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.SFDCloginCucumber.runnerfiles.SFDCLoginRunner@654f0d9c]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test started-at="2024-02-25T13:33:25 PST" name="Default test" finished-at="2024-02-25T13:34:08 PST" duration-ms="43256">
+    <test started-at="2024-08-28T12:15:47 PDT" name="LoginTest" finished-at="2024-08-28T12:16:30 PDT" duration-ms="43129">
       <class name="com.SFDCloginCucumber.runnerfiles.SFDCLoginRunner">
-        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.SFDCloginCucumber.runnerfiles.SFDCLoginRunner@a9cd3b1]" started-at="2024-02-25T13:33:25 PST" name="setUpClass" finished-at="2024-02-25T13:33:26 PST" duration-ms="1039" status="PASS">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.SFDCloginCucumber.runnerfiles.SFDCLoginRunner@654f0d9c]" started-at="2024-08-28T12:15:47 PDT" name="setUpClass" finished-at="2024-08-28T12:15:48 PDT" duration-ms="990" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@29d070c7]]>
+                <![CDATA[org.testng.TestRunner@143fefaf]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.SFDCloginCucumber.runnerfiles.SFDCLoginRunner@a9cd3b1]" started-at="2024-02-25T13:33:26 PST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-02-25T13:33:32 PST" duration-ms="5392" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.SFDCloginCucumber.runnerfiles.SFDCLoginRunner@654f0d9c]" started-at="2024-08-28T12:15:48 PDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-08-28T12:15:54 PDT" duration-ms="6692" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -37,7 +37,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.SFDCloginCucumber.runnerfiles.SFDCLoginRunner@a9cd3b1]" started-at="2024-02-25T13:33:32 PST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-02-25T13:33:41 PST" duration-ms="9040" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.SFDCloginCucumber.runnerfiles.SFDCLoginRunner@654f0d9c]" started-at="2024-08-28T12:15:54 PDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-08-28T12:16:02 PDT" duration-ms="7470" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -53,7 +53,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.SFDCloginCucumber.runnerfiles.SFDCLoginRunner@a9cd3b1]" started-at="2024-02-25T13:33:41 PST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-02-25T13:34:00 PST" duration-ms="19174" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.SFDCloginCucumber.runnerfiles.SFDCLoginRunner@654f0d9c]" started-at="2024-08-28T12:16:02 PDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-08-28T12:16:21 PDT" duration-ms="18848" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -69,7 +69,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.SFDCloginCucumber.runnerfiles.SFDCLoginRunner@a9cd3b1]" started-at="2024-02-25T13:34:00 PST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-02-25T13:34:04 PST" duration-ms="4654" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.SFDCloginCucumber.runnerfiles.SFDCLoginRunner@654f0d9c]" started-at="2024-08-28T12:16:21 PDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-08-28T12:16:25 PDT" duration-ms="4350" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -85,7 +85,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.SFDCloginCucumber.runnerfiles.SFDCLoginRunner@a9cd3b1]" started-at="2024-02-25T13:34:04 PST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-02-25T13:34:08 PST" duration-ms="3831" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.SFDCloginCucumber.runnerfiles.SFDCLoginRunner@654f0d9c]" started-at="2024-08-28T12:16:25 PDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-08-28T12:16:30 PDT" duration-ms="4548" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -101,11 +101,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.SFDCloginCucumber.runnerfiles.SFDCLoginRunner@a9cd3b1]" started-at="2024-02-25T13:34:08 PST" name="tearDownClass" finished-at="2024-02-25T13:34:08 PST" duration-ms="70" status="PASS">
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.SFDCloginCucumber.runnerfiles.SFDCLoginRunner@654f0d9c]" started-at="2024-08-28T12:16:30 PDT" name="tearDownClass" finished-at="2024-08-28T12:16:30 PDT" duration-ms="166" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
       </class> <!-- com.SFDCloginCucumber.runnerfiles.SFDCLoginRunner -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- LoginTest -->
+  </suite> <!-- SFDCSuite -->
 </testng-results>
